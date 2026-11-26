@@ -1,0 +1,32 @@
+# Môi trường và bộ nhớ đệm
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+# Bí mật
+.env
+.env.*
+!.env.example
+kaggle.json
+*credentials*.json
+*.pem
+*.key
+# Dữ liệu và hiện vật cục bộ
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+app/models/*
+!app/models/.gitkeep
+offline_packages/
+*.log
+# Tệp tạm Office/hệ điều hành
+~$*
+Thumbs.db
+.DS_Store
+# Không bỏ qua results/*.csv, *.npz: cần commit kết quả có nguồn gốc.

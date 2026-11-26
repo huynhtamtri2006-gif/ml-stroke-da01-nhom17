@@ -1,0 +1,48 @@
+name: Nhiệm vụ có tiêu chí nghiệm thu
+description: Nghiên cứu, thiết kế, lập trình, kiểm thử hoặc báo cáo
+title: "[DA01-XXX] "
+body:
+  - type: input
+    id: task_id
+    attributes:
+      label: Task ID
+      placeholder: DA01-001
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Mục tiêu và phạm vi
+    validations:
+      required: true
+  - type: textarea
+    id: owner
+    attributes:
+      label: Người chịu trách nhiệm, phase, ngày và ưu tiên
+      description: Gán Assignees thật và custom fields trong Project sau khi tạo.
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Sản phẩm bàn giao
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      value: "- [ ] Có hiện vật và minh chứng
+- [ ] Người còn lại review"
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Liên kết Issue thật hoặc Task ID nếu chưa có số Issue.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence và Notes
+      description: Cập nhật bằng kết quả thật; chưa làm thì để trống.
