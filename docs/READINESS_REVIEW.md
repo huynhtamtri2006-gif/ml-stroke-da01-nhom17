@@ -33,7 +33,7 @@ CSV gốc có 5.110 dòng, 12 cột; 4.861 nhãn0, 249 nhãn1; BMI thiếu201; k
 
 ## Phần còn cần hai người xác nhận
 
-GitHub username của Luân và lời mời repository Private; Project/Issue thực tế từ xa chưa được kiểm tra. Hai người cần thống nhất môi trường học máy và ghi quyết định giao thức trước chạy mô hình đầu; việc đọc CSV/kiểm kê không cần thêm thư viện.
+Repository đã được Trí chuyển Public; Luân có thể clone ngay. Còn cần xác nhận username/quyền collaborator để Luân push nhánh, quyền Project và cấu hình Rulesets; chưa kiểm tra các quyền từ xa. Hai người cần thống nhất môi trường học máy và ghi quyết định giao thức trước chạy mô hình đầu; đọc CSV/kiểm kê không cần thêm thư viện.
 
 Slide chương2–4, giáo trình/rubric trong các tài liệu03/11 và nhiệm vụ riêng08/08b chưa được cung cấp. Gói hiện đủ bắt đầu nghiên cứu DA-01; bổ sung tài liệu lớp trước chốt báo cáo/chấm điểm. Không cần dataset thứ hai cho phạm vi DA-01 hiện được giao.
 

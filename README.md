@@ -12,7 +12,7 @@ Repository: **[ml-stroke-da01-nhom17](https://github.com/huynhtamtri2006-gif/ml-
 
 Repository lưu trữ quá trình nghiên cứu và phát triển đồ án, từ phân tích dữ liệu, tự xây dựng thuật toán đến thực nghiệm và ứng dụng minh họa. Người mới tham gia có thể làm theo hướng dẫn bên dưới để tải tài liệu, xác định nhiệm vụ và đóng góp bằng tài khoản GitHub cá nhân.
 
-> **Trạng thái hiện tại:** repository đã có bộ dữ liệu Stroke Prediction Dataset dạng CSV, tài liệu nghiên cứu, từ điển dữ liệu, công cụ kiểm kê và kế hoạch phân công. Thành viên được cấp quyền có thể clone repository để đọc tài liệu, kiểm tra dữ liệu và bắt đầu phân tích. Phần thuật toán học máy và ứng dụng minh họa sẽ được xây dựng theo từng giai đoạn.
+> **Trạng thái hiện tại:** repository Public đã có bộ dữ liệu Stroke Prediction Dataset dạng CSV, tài liệu nghiên cứu, từ điển dữ liệu, công cụ kiểm kê và kế hoạch phân công. Mọi người có thể đọc và clone; thành viên cần quyền collaborator để push nhánh vào repo. Phần thuật toán học máy và ứng dụng minh họa sẽ được xây dựng theo từng giai đoạn.
 
 ## 1. Thành viên và trách nhiệm
 
@@ -127,7 +127,7 @@ Các thư mục thuật toán và ứng dụng hiện chứa hướng dẫn chu�
 
 ### 1. Clone repository
 
-Thành viên cần được cấp quyền truy cập repository Private trước khi thực hiện:
+Repository hiện là **Public**, có thể clone ngay để đọc tài liệu và phân tích. Không cần lời mời chỉ để clone:
 
 ```powershell
 git clone https://github.com/huynhtamtri2006-gif/ml-stroke-da01-nhom17.git
@@ -193,7 +193,7 @@ Kết quả tham chiếu:
 
 ### 5. Bắt đầu thực hiện nhiệm vụ
 
-Đọc [phân công nhiệm vụ](TASK_ASSIGNMENTS.md) và [quy định đóng góp](CONTRIBUTING.md), sau đó tạo nhánh riêng cho công việc được giao.
+Đọc [phân công nhiệm vụ](TASK_ASSIGNMENTS.md) và [quy định đóng góp](CONTRIBUTING.md), sau đó tạo nhánh riêng cho công việc được giao. Muốn push nhánh vào repo này, Luân cần được Trí thêm làm collaborator và chấp nhận lời mời. Luân gửi Pull Request, Trí đọc và quyết định merge; Public không tự cấp quyền push hoặc tự bảo vệ main.
 
 Trước khi xây dựng mô hình, thống nhất cách chia dữ liệu và tuân thủ [giao thức thực nghiệm](docs/EXPERIMENT_PROTOCOL.md). Các bước điền khuyết, mã hóa, chuẩn hóa và giảm chiều chỉ được khớp trên phần huấn luyện tương ứng.
 

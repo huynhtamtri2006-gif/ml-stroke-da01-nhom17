@@ -2,9 +2,11 @@
 
 Gói đã có CSV gốc, từ điển, công cụ/báo cáo kiểm kê, hai PDF yêu cầu, kế hoạch và nhiệm vụ cá nhân. Đủ để hai người bắt đầu nghiên cứu và chuẩn bị triển khai; chưa có thuật toán học máy hoặc ứng dụng hoàn chỉnh.
 
-## 1. Luân nhận quyền và clone
+## 1. Luân clone repo và nhận quyền đóng góp
 
-Trí mời GitHub username của Luân vào repo Private, Luân chấp nhận bằng tài khoản cá nhân. Username và quyền thực tế chưa được xác nhận trong lần rà soát này.
+Repository hiện là **Public** theo cập nhật của Trí: Luân có thể đọc và clone ngay, không cần lời mời để tải về. Để push nhánh vào repository này, Trí vẫn cần thêm Luân làm collaborator và Luân chấp nhận lời mời bằng tài khoản cá nhân. Đọc/clone và push là hai quyền khác nhau; Public không tự cho mọi người quyền sửa repo.
+
+Luân làm trên nhánh riêng và tạo Pull Request để Trí kiểm tra, không push trực tiếp hoặc tự merge vào main. Việc chặn bằng Rulesets phải được Trí cấu hình riêng; tài liệu này không xác nhận quy tắc đã bật trên GitHub.
 
 ```powershell
 git clone https://github.com/huynhtamtri2006-gif/ml-stroke-da01-nhom17.git
