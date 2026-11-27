@@ -1,6 +1,6 @@
 # Nhiệm vụ theo ngày của Cao Minh Luân
 
-MSSV: 2001240263. Đề tài DA-01, nhóm 17. Trí giám sát chung; người còn lại review. Đây là kế hoạch, chưa xác nhận công việc hoàn thành. Không yêu cầu số giờ/ngày.
+MSSV: 2001240263. Đề tài DA-01, nhóm 17. Trí giám sát chung, tự kiểm tra phần mình, review phần Luân và quyết định nghiệm thu/merge. Đây là kế hoạch, chưa xác nhận công việc hoàn thành. Không yêu cầu số giờ/ngày.
 
 ## 2026-11-26 – DA01-002
 
@@ -14,7 +14,7 @@ Tiêu chí nghiệm thu: Tóm tắt bằng lời mình từ bài Saito và đề
 
 Phụ thuộc: Không có nhiệm vụ trước. Xem nội dung Issue dự thảo tại docs/issues/DA01-002.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-11-27 – DA01-004
 
@@ -28,7 +28,7 @@ Tiêu chí nghiệm thu: Chốt trước lần chạy: 80/20 + CV5x5, train-only
 
 Phụ thuộc: DA01-002. Xem nội dung Issue dự thảo tại docs/issues/DA01-004.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-11-28 – DA01-006
 
@@ -42,7 +42,7 @@ Tiêu chí nghiệm thu: Ghi Python/thư viện thực; giải thích hình dạ
 
 Phụ thuộc: DA01-002. Xem nội dung Issue dự thảo tại docs/issues/DA01-006.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-11-29 – DA01-008
 
@@ -56,7 +56,7 @@ Tiêu chí nghiệm thu: Ổn định số, L2 không phạt bias, gradient kh�
 
 Phụ thuộc: DA01-004, DA01-006. Xem nội dung Issue dự thảo tại docs/issues/DA01-008.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-11-30 – DA01-010
 
@@ -70,7 +70,7 @@ Tiêu chí nghiệm thu: Bản NumPy chạy trước đối chiếu; khớp loss
 
 Phụ thuộc: DA01-007, DA01-008. Xem nội dung Issue dự thảo tại docs/issues/DA01-010.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-01 – DA01-012
 
@@ -84,7 +84,7 @@ Tiêu chí nghiệm thu: Có centering, transform/inverse, variance; test so skl
 
 Phụ thuộc: DA01-004, DA01-006. Xem nội dung Issue dự thảo tại docs/issues/DA01-012.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-02 – DA01-014
 
@@ -98,7 +98,7 @@ Tiêu chí nghiệm thu: Tính scatter/hướng chiếu 1D, xử lý suy biến;
 
 Phụ thuộc: DA01-012. Xem nội dung Issue dự thảo tại docs/issues/DA01-014.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-03 – DA01-016
 
@@ -112,7 +112,7 @@ Tiêu chí nghiệm thu: PR-AUC hình thang từ score có xử lý ties; seed m
 
 Phụ thuộc: DA01-004, DA01-007, DA01-010, DA01-012, DA01-014. Xem nội dung Issue dự thảo tại docs/issues/DA01-016.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-04 – DA01-018
 
@@ -126,7 +126,7 @@ Tiêu chí nghiệm thu: Đoán âm, unweighted LR, balanced sklearn, RF; pilot 
 
 Phụ thuộc: DA01-007, DA01-010, DA01-016. Xem nội dung Issue dự thảo tại docs/issues/DA01-018.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-05 – DA01-020
 
@@ -140,7 +140,7 @@ Tiêu chí nghiệm thu: Đủ 25 lần đo cho MỖI cấu hình bắt buộc; 
 
 Phụ thuộc: DA01-009, DA01-010, DA01-012, DA01-014, DA01-016, DA01-018. Xem nội dung Issue dự thảo tại docs/issues/DA01-020.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-06 – DA01-022
 
@@ -154,7 +154,7 @@ Tiêu chí nghiệm thu: Mean ± std, Wilcoxon cùng cặp, ghi giới hạn CV/
 
 Phụ thuộc: DA01-020. Xem nội dung Issue dự thảo tại docs/issues/DA01-022.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-07 – DA01-024
 
@@ -168,7 +168,7 @@ Tiêu chí nghiệm thu: Calibration tách phần fit; PAVA đơn điệu và x�
 
 Phụ thuộc: DA01-016, DA01-020. Xem nội dung Issue dự thảo tại docs/issues/DA01-024.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-08 – DA01-026
 
@@ -182,7 +182,7 @@ Tiêu chí nghiệm thu: Quét tỷ số 5–100, Brier theo k cạnh PR-AUC, kh
 
 Phụ thuộc: DA01-020, DA01-024. Xem nội dung Issue dự thảo tại docs/issues/DA01-026.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-09 – DA01-028
 
@@ -196,7 +196,7 @@ Tiêu chí nghiệm thu: Các câu kết luận có số thật và uncertainty;
 
 Phụ thuộc: DA01-022, DA01-026. Xem nội dung Issue dự thảo tại docs/issues/DA01-028.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-10 – DA01-030
 
@@ -210,7 +210,7 @@ Tiêu chí nghiệm thu: Chốt mọi quyết định trước mở test; không
 
 Phụ thuộc: DA01-028. Xem nội dung Issue dự thảo tại docs/issues/DA01-030.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-11 – DA01-032
 
@@ -224,7 +224,7 @@ Tiêu chí nghiệm thu: Công thức có nguồn, 6 bệnh nhân 2 biến/3+3; 
 
 Phụ thuộc: DA01-022, DA01-028, DA01-030. Xem nội dung Issue dự thảo tại docs/issues/DA01-032.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-12 – DA01-034
 
@@ -238,7 +238,7 @@ Tiêu chí nghiệm thu: Giải thích được weights/PCA/LDA/calibration/leak
 
 Phụ thuộc: DA01-028, DA01-032. Xem nội dung Issue dự thảo tại docs/issues/DA01-034.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-13 – DA01-036
 
@@ -252,7 +252,7 @@ Tiêu chí nghiệm thu: Ghi Python/packages/seed/hash thật; tạo lại bản
 
 Phụ thuộc: DA01-028, DA01-030, DA01-034. Xem nội dung Issue dự thảo tại docs/issues/DA01-036.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-14 – DA01-038
 
@@ -266,7 +266,7 @@ Tiêu chí nghiệm thu: Cả hai trả lời chéo được, không đọc số
 
 Phụ thuộc: DA01-034, DA01-036, DA01-037. Xem nội dung Issue dự thảo tại docs/issues/DA01-038.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-15 – DA01-040
 
@@ -280,7 +280,7 @@ Tiêu chí nghiệm thu: Giải thích phần thuật toán/thực nghiệm; ch�
 
 Phụ thuộc: DA01-037, DA01-038. Xem nội dung Issue dự thảo tại docs/issues/DA01-040.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-16 – DA01-042
 
@@ -294,7 +294,7 @@ Tiêu chí nghiệm thu: Phân biệt sửa trình bày với cần chạy lại
 
 Phụ thuộc: DA01-039, DA01-040. Xem nội dung Issue dự thảo tại docs/issues/DA01-042.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-17 – DA01-044
 
@@ -308,7 +308,7 @@ Tiêu chí nghiệm thu: Mọi bảng mới có provenance; không chạy lại 
 
 Phụ thuộc: DA01-041, DA01-042. Xem nội dung Issue dự thảo tại docs/issues/DA01-044.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-18 – DA01-046
 
@@ -322,7 +322,7 @@ Tiêu chí nghiệm thu: Tự tổng hợp việc thật bằng tài khoản cá
 
 Phụ thuộc: DA01-044. Xem nội dung Issue dự thảo tại docs/issues/DA01-046.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-19 – DA01-048
 
@@ -336,7 +336,7 @@ Tiêu chí nghiệm thu: Nguồn thực vận dụng, giấy phép đúng; Trí 
 
 Phụ thuộc: DA01-045, DA01-046. Xem nội dung Issue dự thảo tại docs/issues/DA01-048.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-20 – DA01-050
 
@@ -350,7 +350,7 @@ Tiêu chí nghiệm thu: Không còn khác biệt giữa Word/slide/results; l�
 
 Phụ thuộc: DA01-043, DA01-044, DA01-047, DA01-048. Xem nội dung Issue dự thảo tại docs/issues/DA01-050.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-21 – DA01-052
 
@@ -364,7 +364,7 @@ Tiêu chí nghiệm thu: Kiểm tra nạp mô hình/hình/báo cáo; ghi giới 
 
 Phụ thuộc: DA01-049, DA01-050, DA01-051. Xem nội dung Issue dự thảo tại docs/issues/DA01-052.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 ## 2026-12-22 – DA01-054
 
@@ -378,7 +378,7 @@ Tiêu chí nghiệm thu: Bản nộp khớp Release; bảng công việc phản 
 
 Phụ thuộc: DA01-052, DA01-053. Xem nội dung Issue dự thảo tại docs/issues/DA01-054.md; gắn số/link Issue thật sau khi nhập GitHub.
 
-Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; Trí kiểm tra và quyết định nghiệm thu (tự kiểm tra nếu là phần Trí làm). Chưa có minh chứng thì không ghi Done.
 
 Ngày trong bảng là mốc kế hoạch; có thể bắt đầu sớm khi đầu vào đã sẵn sàng. Phụ thuộc dùng để nghiệm thu phần tích hợp; phần nghiên cứu/khung giao diện có thể làm song song. Xem docs/HANDOFFS.md.
 

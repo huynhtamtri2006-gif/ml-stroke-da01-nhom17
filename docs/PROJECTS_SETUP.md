@@ -52,6 +52,6 @@ Nguồn: [Filtering projects](https://docs.github.com/en/issues/planning-and-tra
 
 ## Quy tắc trạng thái
 
-Backlog → To Do khi rõ phụ thuộc/AC; Researching cho nhiệm vụ học; In Progress khi tạo hiện vật; In Review khi PR/tài liệu sẵn sàng; Testing khi kiểm tra; Done khi người còn lại nghiệm thu và có evidence. Blocked phải ghi trở ngại, người xử lý và bước tiếp; không đổi hạn cũ chỉ để giấu trễ. Researching không bắt buộc mọi Issue đi qua; lỗi có thể quay về In Progress.
+Backlog → To Do khi rõ phụ thuộc/AC; Researching cho nhiệm vụ học; In Progress khi tạo hiện vật; In Review khi PR/tài liệu sẵn sàng; Testing khi kiểm tra; Done khi Trí quyết định nghiệm thu và có evidence; phần Trí làm do Trí tự kiểm tra, phần Luân làm phải được Trí review. Blocked phải ghi trở ngại, người xử lý và bước tiếp; không đổi hạn cũ chỉ để giấu trễ. Researching không bắt buộc mọi Issue đi qua; lỗi có thể quay về In Progress.
 
 Thêm workflow “Item closed → Done” nếu phù hợp; chỉ đóng Issue khi AC đạt, không đóng tự động sớm. Không thêm full CV vào Actions. Mỗi buổi cuối ngày cập nhật cả Issue và Project; Progress không tự suy ra từ số commit.

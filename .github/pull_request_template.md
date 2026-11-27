@@ -18,4 +18,4 @@ Link tài liệu/hình/CSV/test, người thực hiện, phần AI hỗ trợ n�
 - [ ] Không secret/dữ liệu người dùng; CSV Stroke là ngoại lệ đúng tên có nguồn/hash, không thêm raw khác ngoài phạm vi
 - [ ] Thuật toán/tiền xử lý được hiểu và kiểm tra phù hợp
 - [ ] Không rò rỉ hoặc kết luận không có bằng chứng
-- [ ] Người còn lại review
+- [ ] Trí kiểm tra và quyết định nghiệm thu; phần Trí làm được tự kiểm tra, phần Luân làm được Trí review

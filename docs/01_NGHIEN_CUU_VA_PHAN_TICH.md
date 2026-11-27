@@ -66,7 +66,7 @@ Không cần học trọn một khóa trước khi làm: đọc đúng phần, g
 | Nhầm AP/PR-AUC | Tự viết không khớp average_precision_score | Tách hai chỉ số; đối chiếu PR-AUC bằng cùng quy tắc hình thang |
 | Hiệu chuẩn quá khớp | Brier kém trên fold ngoài | Calibration tách riêng, kiểm tra đủ số ca dương, báo biến thiên |
 | Mất mạng | Biểu đồ trắng/cài không được | Trí lưu JS và wheels cục bộ; kiểm tra máy khác không mạng |
-| Công đóng góp sai | Commit hộ, cập nhật Done không có minh chứng | Tài khoản cá nhân, Issue/PR/link kết quả; Trí kiểm tra và Luân review Trí |
+| Công đóng góp sai | Commit hộ, cập nhật Done không có minh chứng | Tài khoản cá nhân, Issue/PR/link kết quả; Trí tự kiểm tra phần mình, review phần Luân và quyết định nghiệm thu; giữ đầy đủ minh chứng |
 | Quyền GitHub | Chưa mời Luân, thiếu username | Ghi pending; không giả vờ đã gán Issue hoặc tạo Project |
 
 ## Những điểm cần thống nhất trước lập trình

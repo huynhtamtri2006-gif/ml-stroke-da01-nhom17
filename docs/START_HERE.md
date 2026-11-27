@@ -38,6 +38,6 @@ Cả hai tự ghi câu hỏi/điều đã hiểu vào RESEARCH_LOG.md. Chốt me
 
 - Trí: review kiểm kê và hồ sơ nguồn; thiết kế luồng/wireframe6 màn; chuẩn bị bộ nạp/tiền xử lý sau khi chốt giao thức.
 - Luân: đọc đề và PR-AUC/mất cân bằng; dự thảo giao thức/công thức Logistic; bài tập NumPy/gradient.
-- Cả hai: review chéo, tạo/cập nhật Issue thật và nhật ký; có CSV/repo không tự đồng nghĩa đã hoàn tất các phần nghiên cứu.
+- Cả hai: tạo/cập nhật Issue thật và nhật ký; Trí tự kiểm tra phần mình, review phần Luân và quyết định nghiệm thu/merge; có CSV/repo không tự đồng nghĩa đã hoàn tất các phần nghiên cứu.
 
 Ngày trong lịch là kế hoạch; đầu vào có sớm được bắt đầu sớm, trễ thì ghi tình trạng thật. Hướng dẫn Projects đã có, chưa kiểm tra Project/Issue thực tế từ xa. Dùng nhánh và danh tính cá nhân, không ghi lịch sử thay người còn lại.
