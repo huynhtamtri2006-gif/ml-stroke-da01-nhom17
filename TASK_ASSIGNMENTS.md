@@ -1,6 +1,6 @@
 # Phân công theo ngày cho Trí và Luân
 
-Trí giám sát chung; mỗi người thực hiện bằng tài khoản cá nhân, review chéo. Lịch là dự kiến từ 26/11 đến 22/12/2026, không là nhật ký đã làm. Không ấn định số giờ/ngày. Mỗi hàng tương ứng hai Issue dự thảo có đầy đủ đầu ra, phụ thuộc và AC trong docs/issues/.
+Trí giám sát chung và quyết định nghiệm thu/merge; mỗi người thực hiện bằng tài khoản cá nhân. Trí tự kiểm tra phần mình và review phần Luân; Luân góp ý khi được yêu cầu. Lịch là dự kiến từ 26/11 đến 22/12/2026, không là nhật ký đã làm. Không ấn định số giờ/ngày. Mỗi hàng tương ứng hai Issue dự thảo có đầy đủ đầu ra, phụ thuộc và AC trong docs/issues/.
 
 | Ngày | Task của Trí | Task của Luân |
 |---|---|---|

@@ -18,7 +18,7 @@ git commit -m "docs(research): document findings for DA01-001"
 git push -u origin docs/da01-001-research
 ```
 
-Đường dẫn docs/RESEARCH_FILE.md là ví dụ, thay bằng file thật mình vừa viết. PR ghi Fixes #NUMBER khi hoàn tất Issue; dùng Refs #NUMBER nếu chỉ một phần. Một reviewer là người còn lại. PR của Trí do Luân review, không tự duyệt. Nêu mục tiêu, thay đổi, cách kiểm tra, minh chứng và giới hạn. Chỉ merge sau đạt AC và có review; có thể squash nếu vẫn giữ tác giả thực tế và minh chứng.
+Đường dẫn docs/RESEARCH_FILE.md là ví dụ, thay bằng file thật mình vừa viết. PR ghi Fixes #NUMBER khi hoàn tất Issue; dùng Refs #NUMBER nếu chỉ một phần. Trí là người giám sát và quyết định nghiệm thu/merge. PR của Luân phải được Trí review; Luân không tự merge vào main. Trí tự kiểm tra PR của mình và quyết định merge, không cần Luân phê duyệt. Luân có thể góp ý khi được yêu cầu. Tự kiểm tra không có nghĩa là GitHub cho phép tác giả tự Approve PR. Nêu mục tiêu, thay đổi, cách kiểm tra, minh chứng và giới hạn. Chỉ merge sau đạt AC, có minh chứng và Trí quyết định nghiệm thu; PR của Luân cần Trí review trước; có thể squash nếu vẫn giữ tác giả thực tế và minh chứng.
 
 ## Clone và đồng bộ
 
@@ -40,3 +40,7 @@ Commit/cất thay đổi đang làm trước; ở nhánh nhiệm vụ chạy git
 Cập nhật Issue với: việc thực làm, kết quả/đường dẫn/commit/PR, kiểm tra đã chạy, lỗi và bước tiếp. Ghi Actual Hours chỉ nếu nhóm muốn theo dõi; không bắt buộc số giờ/ngày. Cập nhật Status và Progress có căn cứ. Đang chờ review không là Done; thiếu acceptance/evidence không ghi 100%.
 
 Review kiểm tra đúng yêu cầu, hiểu công thức, không leakage, tests thật, source/license, không secret. Không chấm thành viên theo số commit đơn thuần. Repository hiện Public: bất kỳ ai có thể đọc/clone; chỉ thành viên có quyền phù hợp mới push được vào repo. Luân push nhánh nhiệm vụ và tạo PR; Trí đọc và quyết định merge main. Public không tự chặn push main: Trí cần bật Rulesets/bảo vệ nhánh phù hợp để cưỡng chế quy trình; chưa xác minh cấu hình thực tế.
+
+## Quyền nghiệm thu và bảo vệ main
+
+Chỉ Trí quyết định merge vào main. Luân làm trên nhánh riêng và gửi PR; góp ý kỹ thuật không đồng nghĩa có quyền nghiệm thu hoặc merge. Tài liệu không tự thay đổi quyền GitHub. Cần kiểm tra Ruleset để chỉ Trí được cập nhật main qua PR/bypass, không cấp quyền bypass cho Luân. Nếu PR của Trí bị chặn vì thiếu approval, Trí có thể dùng quyền bypass đã được cấp sau khi tự kiểm tra; không ghi giả rằng Luân đã duyệt.

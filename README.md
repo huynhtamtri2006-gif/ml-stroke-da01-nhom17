@@ -21,7 +21,7 @@ Repository lưu trữ quá trình nghiên cứu và phát triển đồ án, t�
 | 1 | Huỳnh Tâm Trí | 2045240315 | Giám sát nhiệm vụ; thu thập và tiền xử lý dữ liệu; thiết kế hệ thống; ứng dụng; tích hợp và kiểm tra tiến độ | [huynhtamtri2006-gif](https://github.com/huynhtamtri2006-gif) |
 | 2 | Cao Minh Luân | 2001240263 | Nghiên cứu và tự viết thuật toán; thiết kế thực nghiệm; đánh giá thống kê; hiệu chuẩn xác suất và phân tích kết quả | Chờ bổ sung username |
 
-Mỗi nhiệm vụ có một người chịu trách nhiệm chính và người còn lại kiểm tra. Trí giám sát công việc theo phân công triển khai. Danh sách giảng viên ghi Luân là nhóm trưởng và nhóm có 3 thành viên; phương án làm việc cho hai người không thay đổi hồ sơ đăng ký chính thức.
+Mỗi nhiệm vụ có một người chịu trách nhiệm chính. Trí là chủ repo, giám sát và quyết định nghiệm thu/merge; Trí tự kiểm tra công việc của mình và review công việc của Luân. Luân góp ý khi được yêu cầu. Danh sách giảng viên ghi Luân là nhóm trưởng và nhóm có 3 thành viên; phương án làm việc cho hai người không thay đổi hồ sơ đăng ký chính thức.
 
 ## 2. Mục tiêu và câu hỏi nghiên cứu
 

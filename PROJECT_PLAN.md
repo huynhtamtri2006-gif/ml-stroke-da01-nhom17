@@ -19,4 +19,4 @@ Chi tiết bàn giao giữa hai người: [HANDOFFS.md](docs/HANDOFFS.md). Các 
 
 Chốt giao thức → nạp/tiền xử lý → thuật toán/test → quét k/baseline → thống kê/mở rộng → đóng gói/bảo vệ. Song song: Trí thiết kế giao diện và API sau khi có hợp đồng; Luân viết công thức/thuật toán; Trí làm cụm khi có PCA; Luân làm calibration khi có xác suất. Bàn giao sớm bản nhỏ end-to-end, không đợi quét hết k mới tích hợp app.
 
-Nếu trễ: ghi Blocked và tác động vào Issue; Trí điều phối, người còn lại review phương án. Có thể bỏ trang trí và cấu hình ngoài yêu cầu; không bỏ thuật toán tự viết, tests, baseline, giao thức 25 lần đo, mở rộng hoặc 6 màn hình. Nếu không đủ năng lực/thời gian thì báo giảng viên bằng thông tin thật, không bịa tiến độ.
+Nếu trễ: ghi Blocked và tác động vào Issue; Trí điều phối và quyết định phương án; Luân góp ý khi được yêu cầu. Có thể bỏ trang trí và cấu hình ngoài yêu cầu; không bỏ thuật toán tự viết, tests, baseline, giao thức 25 lần đo, mở rộng hoặc 6 màn hình. Nếu không đủ năng lực/thời gian thì báo giảng viên bằng thông tin thật, không bịa tiến độ.

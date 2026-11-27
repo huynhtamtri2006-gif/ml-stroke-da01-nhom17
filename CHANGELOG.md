@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Đồng bộ quy trình theo yêu cầu của Trí: Trí tự kiểm tra phần mình, review phần Luân và quyết định nghiệm thu/merge; Luân chỉ góp ý khi được yêu cầu. Cập nhật kế hoạch, Issue dự thảo và hai bản Word; chưa thay đổi quyền GitHub từ xa.
+
 - 27/11/2026: đồng bộ hướng dẫn theo repo Public; clone không cần lời mời, push nhánh cần collaborator; Project độc lập. Cập nhật guard script nhập Issue theo Public, chưa chạy tác vụ từ xa.
 - 27/11/2026: rà soát trước bàn giao Luân, bổ sung PDF gốc và bảng yêu cầu/bàn giao; đồng bộ phụ thuộc CSV/Markdown/Word; sửa trạng thái cũ. Không có kết quả mô hình mới.
 - 27/11/2026: bổ sung hướng dẫn tải dữ liệu, từ điển cột, hồ sơ nguồn, công cụ kiểm kê bằng thư viện chuẩn và kiểm thử. Trí đã chuẩn bị CSV và chạy kiểm kê; AI xác minh lại hash, đọc báo cáo và bổ sung nhận xét. Raw vẫn ngoài Git; License do Trí cung cấp là Data files © Original Authors, chưa xác nhận điều kiện tái phân phối.

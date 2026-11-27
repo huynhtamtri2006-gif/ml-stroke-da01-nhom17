@@ -23,6 +23,6 @@ Task màn dự đoán đầu tiên DA01-013 có thể nối Logistic trước; �
 
 ## Hợp đồng cần chốt trước mã nguồn
 
-X là ma trận số, y là stroke tách riêng, không đưa id/stroke vào đặc trưng. Preprocessor có fit/transform/feature_names/lưu-nạp. Classifier chỉ rõ xác suất lớp1 và trạng thái hiệu chuẩn; threshold tách khỏi PR-AUC. Kết quả có config_id, seed, fold, k, metrics, threshold và thời gian. Mỗi PR được người còn lại review, kể cả PR của Trí.
+X là ma trận số, y là stroke tách riêng, không đưa id/stroke vào đặc trưng. Preprocessor có fit/transform/feature_names/lưu-nạp. Classifier chỉ rõ xác suất lớp1 và trạng thái hiệu chuẩn; threshold tách khỏi PR-AUC. Kết quả có config_id, seed, fold, k, metrics, threshold và thời gian. Trí review PR của Luân và quyết định merge. Với PR của mình, Trí tự kiểm tra, ghi minh chứng và quyết định merge; không cần Luân phê duyệt. Luân có thể góp ý khi được yêu cầu.
 
 Phụ thuộc đã đồng bộ trong [CSV](tasks/task_manifest.csv), các Issue dự thảo, Markdown và hai Word cá nhân. Nếu đã tạo Issue trên GitHub, cập nhật body theo file dự thảo; script nhập hiện chỉ tránh tạo trùng, không tự sửa Issue cũ.
