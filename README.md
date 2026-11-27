@@ -12,7 +12,7 @@ Repository: **[ml-stroke-da01-nhom17](https://github.com/huynhtamtri2006-gif/ml-
 
 Repository lưu trữ quá trình nghiên cứu và phát triển đồ án, từ phân tích dữ liệu, tự xây dựng thuật toán đến thực nghiệm và ứng dụng minh họa. Người mới tham gia có thể làm theo hướng dẫn bên dưới để tải tài liệu, xác định nhiệm vụ và đóng góp bằng tài khoản GitHub cá nhân.
 
-> **Trạng thái hiện tại:** đã có bộ tài liệu, kế hoạch, công cụ và báo cáo kiểm kê CSV thật. Theo yêu cầu của Trí, repo đã được cấu hình cho phép chứa CSV gốc; sau khi commit/push, người clone sẽ có sẵn dữ liệu để phân tích. Chưa có thuật toán học máy, ứng dụng chạy được, mô hình huấn luyện hoặc kết quả đánh giá mô hình. Các chức năng bên dưới là phạm vi dự kiến thực hiện.
+> > **Trạng thái hiện tại:** repository đã có bộ dữ liệu Stroke Prediction Dataset dạng CSV, tài liệu nghiên cứu, từ điển dữ liệu, công cụ kiểm kê và kế hoạch phân công. Thành viên được cấp quyền có thể clone repository để đọc tài liệu, kiểm tra dữ liệu và bắt đầu phân tích. Phần thuật toán học máy và ứng dụng minh họa sẽ được xây dựng theo từng giai đoạn.
 
 ## 1. Thành viên và trách nhiệm
 
@@ -125,78 +125,81 @@ Các thư mục thuật toán và ứng dụng hiện chứa hướng dẫn chu�
 
 ## 6. Hướng dẫn tải và sử dụng repository
 
-### Bước 1: Nhận quyền truy cập
+## Hướng dẫn sử dụng dữ liệu
 
-Repository ở chế độ Private theo kế hoạch của nhóm. Thành viên cần được chủ repository mời và chấp nhận lời mời bằng tài khoản GitHub cá nhân trước khi clone.
+### 1. Clone repository
 
-### Bước 2: Clone về máy
-
-Mở PowerShell hoặc terminal tại thư mục muốn lưu dự án:
+Thành viên cần được cấp quyền truy cập repository Private trước khi thực hiện:
 
 ```powershell
 git clone https://github.com/huynhtamtri2006-gif/ml-stroke-da01-nhom17.git
 cd ml-stroke-da01-nhom17
 ```
 
-Nếu đã có thư mục làm việc của dự án, tiếp tục dùng thư mục đó; không cần clone lần nữa. Trên máy của Trí, thư mục ban đầu là `D:\ML - CUOI KY\do_an_DA01_nhom17`.
-
-### Bước 3: Đọc tài liệu theo thứ tự
-
-| Thứ tự | Tài liệu | Mục đích |
-|---|---|---|
-| 1 | [Bắt đầu tại đây](docs/START_HERE.md) | Nắm thứ tự công việc ban đầu |
-| 2 | [Nghiên cứu và phân tích đề tài](docs/01_NGHIEN_CUU_VA_PHAN_TICH.md) | Hiểu bài toán, kiến thức, giải pháp và rủi ro |
-| 3 | [Yêu cầu hệ thống](REQUIREMENTS.md) | Xác định sản phẩm và tiêu chí phải đạt |
-| 4 | [Nguồn học tập](docs/SOURCES.md) | Chọn tài liệu cần đọc và ghi nguồn |
-| 5 | [Giao thức thực nghiệm](docs/EXPERIMENT_PROTOCOL.md) | Hiểu cách chia dữ liệu, đánh giá và tránh rò rỉ |
-| 6 | [Thiết kế kiến trúc](docs/ARCHITECTURE.md) và [công nghệ](TECH_STACK.md) | Hiểu các thành phần trước khi lập trình |
-| 7 | [Phân công nhiệm vụ](TASK_ASSIGNMENTS.md) | Tìm nhiệm vụ theo người và theo ngày |
-| 8 | [Quy định đóng góp](CONTRIBUTING.md) | Làm việc bằng nhánh, commit, PR và review |
-
-### Bước 4: Mở kế hoạch cá nhân
-
-- **Huỳnh Tâm Trí:** [kế hoạch theo ngày](docs/tasks/TRI_DAILY.md) hoặc [file Word](reports/planning/03_Nhiem_vu_Huynh_Tam_Tri_theo_ngay.docx).
-- **Cao Minh Luân:** [kế hoạch theo ngày](docs/tasks/LUAN_DAILY.md) hoặc [file Word](reports/planning/04_Nhiem_vu_Cao_Minh_Luan_theo_ngay.docx).
-
-Từng nhiệm vụ có Task ID, đầu ra, phụ thuộc và tiêu chí nghiệm thu. Nội dung Issue dự thảo nằm trong `docs/issues/`; danh mục tổng hợp nằm ở [task_manifest.csv](docs/tasks/task_manifest.csv).
-
-Task ID như `DA01-001` không phải số Issue GitHub `#1`. Liên kết số Issue thật sau khi tạo; bản kế hoạch không tự chứng minh nhiệm vụ đã được thực hiện.
-
-### Bước 5: Làm việc trên nhánh riêng
-
-Ví dụ bắt đầu nhiệm vụ nghiên cứu `DA01-001`, khi thư mục làm việc không có thay đổi chưa lưu:
+Nếu đã clone trước đó, lưu hoặc commit các thay đổi đang làm, sau đó cập nhật nhánh main:
 
 ```powershell
 git switch main
 git pull --ff-only
-git switch -c docs/da01-001-research
 ```
 
-Thay Task ID và tên nhánh theo nhiệm vụ của mình. Tự ghi nội dung nghiên cứu hoặc triển khai, kiểm tra thay đổi, commit bằng danh tính cá nhân, push nhánh và mở Pull Request để người còn lại review. Các lệnh chi tiết và xử lý xung đột nằm trong [CONTRIBUTING.md](CONTRIBUTING.md).
+### 2. Mở bộ dữ liệu
 
-### Bước 6: Ghi nhận kết quả sau mỗi buổi làm
+File CSV gốc được lưu tại:
 
-1. Cập nhật Issue bằng việc thực làm, kết quả kiểm tra và vướng mắc.
-2. Ghi nguồn đã đọc và điều đã vận dụng vào [RESEARCH_LOG.md](RESEARCH_LOG.md).
-3. Cập nhật [báo cáo tiến độ](WEEKLY_PROGRESS.md) và trạng thái trên Projects nếu đã thiết lập.
-4. Gắn link tài liệu, commit, PR, test hoặc kết quả vào [minh chứng đóng góp](CONTRIBUTION_REPORT.md).
-5. Chỉ chuyển Done khi đạt tiêu chí và đã được kiểm tra.
+```text
+data/raw/healthcare-dataset-stroke-data.csv
+```
 
-### Bước 7: Chuẩn bị dữ liệu để cùng phân tích
+Có thể xem trực tiếp trên GitHub, mở bằng trình đọc CSV hoặc nạp vào Python để phân tích. Giữ nguyên file gốc; thực hiện làm sạch và biến đổi trong mã tiền xử lý.
 
-Sau khi CSV đã được commit/push, người clone có sẵn file trong `data/raw/`. Giữ nguyên bản gốc, đọc [hướng dẫn dữ liệu](data/README.md) và kiểm kê bằng lệnh:
+### 3. Đọc tài liệu mô tả
+
+- [Từ điển dữ liệu](data/DATA_DICTIONARY.md): ý nghĩa và lưu ý của 12 cột.
+- [Hồ sơ nguồn dữ liệu](data/PROVENANCE.md): nguồn Kaggle, thông tin bản quyền và mã SHA-256.
+- [Báo cáo kiểm kê](data/inventory/inventory.md): kích thước, phân bố nhãn, giá trị thiếu và bản ghi trùng.
+- [Nhận xét ban đầu](docs/INITIAL_DATA_FINDINGS.md): các vấn đề cần khảo sát.
+- [Hướng dẫn phân tích](docs/DATA_ANALYSIS_START.md): thứ tự thực hiện dành cho thành viên.
+
+### 4. Kiểm kê trên máy cá nhân
+
+Tại thư mục gốc repository, chạy:
 
 ```powershell
 python data/kiem_ke.py
 ```
 
-Công cụ không cần thư viện bổ sung; báo cáo ở `data/inventory/` chỉ được tạo khi có CSV hợp lệ. Bản kiểm kê trên máy Trí đã có; đọc [từ điển các cột](data/DATA_DICTIONARY.md) và [hướng dẫn phân tích cho hai người](docs/DATA_ANALYSIS_START.md). Đối chiếu SHA-256 trong [hồ sơ dữ liệu](data/PROVENANCE.md); nếu bản clone cũ chưa có CSV, cập nhật từ main sau khi Trí push.
+Công cụ chỉ sử dụng thư viện chuẩn Python, không cần cài thêm thư viện. Báo cáo được tạo tại:
 
-### Bước 8: Chuẩn bị môi trường và chạy các thành phần sau này
+```text
+data/inventory/inventory.md
+data/inventory/inventory.json
+```
 
-Đọc [ENVIRONMENT.md](docs/ENVIRONMENT.md) để kiểm tra Python và chuẩn bị môi trường riêng khi bắt đầu lập trình. Chỉ CSV được cho phép theo tên cụ thể sẽ đi cùng repo; môi trường Python và các hiện vật còn bị gitignore không tự xuất hiện sau khi clone.
+Kết quả tham chiếu:
 
-Hiện chưa có `requirements.txt` đã khóa, lệnh huấn luyện hoặc lệnh chạy ứng dụng. Hướng dẫn cài đặt và chạy sẽ được bổ sung cùng từng thành phần đã kiểm chứng; chưa chạy các lệnh mẫu dành cho phần mã chưa tồn tại.
+| Nội dung | Giá trị |
+|---|---:|
+| Số dòng | 5.110 |
+| Số cột | 12 |
+| Nhãn không đột quỵ | 4.861 |
+| Nhãn đột quỵ | 249 |
+| Giá trị thiếu ở cột BMI | 201 |
+| Bản ghi trùng toàn bộ | 0 |
+
+Đây là kết quả kiểm kê dữ liệu, chưa phải kết quả đánh giá mô hình.
+
+### 5. Bắt đầu thực hiện nhiệm vụ
+
+Đọc [phân công nhiệm vụ](TASK_ASSIGNMENTS.md) và [quy định đóng góp](CONTRIBUTING.md), sau đó tạo nhánh riêng cho công việc được giao.
+
+Trước khi xây dựng mô hình, thống nhất cách chia dữ liệu và tuân thủ [giao thức thực nghiệm](docs/EXPERIMENT_PROTOCOL.md). Các bước điền khuyết, mã hóa, chuẩn hóa và giảm chiều chỉ được khớp trên phần huấn luyện tương ứng.
+
+### Nguồn và bản quyền
+
+Dữ liệu được lấy từ [Stroke Prediction Dataset của fedesoriano trên Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset).
+
+Thông tin License hiển thị tại nguồn: **Data files © Original Authors**. Bản quyền dữ liệu thuộc tác giả gốc; nhóm không nhận là dữ liệu tự thu thập và không gán giấy phép mở khác cho CSV.
 
 ## 7. Ứng dụng minh họa dự kiến
 
