@@ -13,6 +13,8 @@ Bắt đầu kế hoạch 26/11/2026. Bảo vệ theo tài liệu: 15/12/2026, n
 
 P8 theo dõi xuyên suốt; giai đoạn 3–6 chuẩn bị quản lý ngay từ những công việc nghiên cứu đầu, không chờ lập trình. Ngày kế hoạch không là ngày xác nhận hoàn thành.
 
+Chi tiết bàn giao giữa hai người: [HANDOFFS.md](docs/HANDOFFS.md). Các phụ thuộc trong 54 nhiệm vụ đã được rà soát và đồng bộ; công việc giao diện có thể làm khung trước rồi tích hợp khi có mô hình/kết quả thật.
+
 ## Phụ thuộc và đường găng
 
 Chốt giao thức → nạp/tiền xử lý → thuật toán/test → quét k/baseline → thống kê/mở rộng → đóng gói/bảo vệ. Song song: Trí thiết kế giao diện và API sau khi có hợp đồng; Luân viết công thức/thuật toán; Trí làm cụm khi có PCA; Luân làm calibration khi có xác suất. Bàn giao sớm bản nhỏ end-to-end, không đợi quét hết k mới tích hợp app.

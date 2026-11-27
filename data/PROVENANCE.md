@@ -23,7 +23,7 @@ Trí đã đặt CSV vào thư mục raw và chạy công cụ kiểm kê. AI đ
 | License trên Data Card do Trí cung cấp | Data files © Original Authors |
 | Mã loại trong danh sách License của Kaggle | copyright-authors |
 | Điều khoản tái phân phối được kiểm chứng độc lập | Chưa xác nhận từ điều khoản cụ thể; không tự gán giấy phép mở |
-| Quyết định của chủ dự án | Trí yêu cầu đưa đúng CSV này vào repo để thành viên clone dùng chung; đã thêm ngoại lệ .gitignore, chờ commit/push |
+| Quyết định của chủ dự án | Trí yêu cầu đưa đúng CSV này vào repo để thành viên clone dùng chung; đã có trong commit2ffb159 và các commit sau |
 | CSV có được chỉnh sửa trước khi tải vào dự án không | Chưa có thông tin bổ sung; công cụ không sửa CSV |
 | SHA-256 đo từ file cục bộ | 644d473b05d2797006bd94865e4f8bb057f0c721617911613c82c8fcfc707420 |
 | Kích thước file | 316.971 bytes |

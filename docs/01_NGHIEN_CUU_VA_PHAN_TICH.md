@@ -31,7 +31,7 @@ Hướng tiếp cận đề xuất: Logistic trọng số tự viết → đối
 
 ## Đầu vào và thu thập dữ liệu
 
-Stroke Prediction Dataset: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset . Tải bằng tài khoản cá nhân nếu nguồn yêu cầu. Không đưa kaggle.json lên repo. Ghi URL, thời điểm tải, tên tệp, SHA-256, điều khoản sử dụng/giấy phép đang hiển thị, số dòng/cột thực tế. Chưa tải hoặc xác nhận giấy phép dataset trong lần chuẩn bị này; không tái phân phối dữ liệu gốc khi chưa kiểm tra quyền.
+Stroke Prediction Dataset: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset . Tải bằng tài khoản cá nhân nếu nguồn yêu cầu. Không đưa kaggle.json lên repo. Ghi URL, thời điểm tải, tên tệp, SHA-256, điều khoản sử dụng/giấy phép đang hiển thị, số dòng/cột thực tế. Cập nhật 27/11: Trí đã chuẩn bị CSV và kiểm kê, file đã được đưa vào repo theo yêu cầu của Trí; License nguồn do Trí cung cấp là Data files © Original Authors. Thông tin nguồn/bản quyền và hash được giữ ở data/PROVENANCE.md, không tự gán giấy phép mở khác cho CSV.
 
 12 cột theo đề gồm id, 10 biến đầu vào và stroke; bỏ id. Năm biến phân loại: gender, ever_married, work_type, Residence_type, smoking_status. Ba biến liên tục: age, avg_glucose_level, bmi. Hai biến nhị phân: hypertension, heart_disease. BMI thiếu 201 ô theo đề. Cần kiểm kê trùng và quyết định Unknown là nhóm riêng hay missing; khởi đầu giữ nhóm riêng và giải trình.
 
@@ -80,6 +80,6 @@ Không cần học trọn một khóa trước khi làm: đọc đúng phần, g
 
 ## Tiêu chí kết thúc giai đoạn 1
 
-Hai người tự đọc ít nhất phần cốt lõi; có tóm tắt bằng lời của mình; xác nhận câu hỏi/metric/phạm vi; kiểm tra nguồn dữ liệu; ghi quyết định và rủi ro; chốt trách nhiệm; mở Issue nghiên cứu đầu tiên. Hiện bản phân tích do AI chuẩn bị, các tiêu chí thực hiện bởi thành viên chưa được đánh dấu hoàn tất.
+Hai người tự đọc ít nhất phần cốt lõi; có tóm tắt bằng lời của mình; xác nhận câu hỏi/metric/phạm vi; kiểm tra nguồn dữ liệu; ghi quyết định và rủi ro; chốt trách nhiệm; mở Issue nghiên cứu đầu tiên. Bản phân tích có AI hỗ trợ. CSV, kiểm kê và repository đã có; việc hai thành viên đọc, tự tóm tắt và chốt quyết định chưa tự được đánh dấu hoàn tất. Đề gốc nằm trong docs/specifications/ để đối chiếu.
 
 Tham khảo học thuật: [Saito và Rehmsmeier 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432) là bài đọc bắt buộc theo đề về đánh giá dữ liệu mất cân bằng. Không suy ra từ bài này rằng một mô hình cụ thể của nhóm sẽ đạt kết quả tốt.

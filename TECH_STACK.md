@@ -22,6 +22,6 @@ Các lựa chọn dưới đây là đề xuất để nhóm duyệt; chưa có 
 
 Máy đang dùng có Python 3.14.7; không tự đổi Python toàn hệ thống. Cấu hình RAM/CPU của hai máy chưa được xác nhận. Bắt đầu bằng tập nhỏ và đo thời gian trước quét đủ. Không khẳng định máy đạt cấu hình dựa trên suy đoán.
 
-Chưa tạo requirements.txt với phiên bản giả định. Khi chạy smoke test thành công trên cả hai máy, ghi đúng phiên bản vào requirements.txt; chuẩn bị wheel cho cài ngoại tuyến. Python và thư viện phải cùng phiên bản/kiến trúc trên máy chuẩn bị và máy đích.
+Phần đọc CSV và kiểm kê hiện chỉ dùng thư viện chuẩn, hoạt động không cần requirements.txt. Chưa tạo requirements.txt với phiên bản giả định cho thuật toán/ứng dụng chưa triển khai. Khi chạy smoke test thành công trên cả hai máy, ghi đúng phiên bản vào requirements.txt; chuẩn bị wheel cho cài ngoại tuyến. Python và thư viện phải cùng phiên bản/kiến trúc trên máy chuẩn bị và máy đích.
 
 Nguồn: [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/); [GitHub protected branches và giới hạn gói](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).

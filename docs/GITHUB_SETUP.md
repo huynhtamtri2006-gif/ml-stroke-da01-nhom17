@@ -2,7 +2,7 @@
 
 ## Trạng thái đã xác minh
 
-Git 2.53.0 đã có. GitHub CLI chưa có. Chưa có repo từ xa, Project, Issue, PR hay lời mời thành viên được tạo trong lần này. Chưa xác nhận kết nối GitHub. Đã có bộ file cục bộ, không có commit tạo thay thành viên.
+Trí đã khởi tạo repository, commit và push bằng tài khoản cá nhân; main cục bộ đang theo dõi origin/main. Git có sẵn; GitHub CLI chưa được xác nhận cài. Chưa xác minh Project, Issue hoặc lời mời Luân từ xa. Các bước tạo repo bên dưới dành cho dự án chưa khởi tạo; không git init hoặc tạo repo trùng lần nữa.
 
 Tên đề xuất: ml-stroke-da01-nhom17, owner huynhtamtri2006-gif, visibility Private. Luân cung cấp username trước khi mời/gán việc thật.
 
@@ -28,7 +28,7 @@ git diff --cached --stat
 git diff --cached
 ```
 
-Đọc danh sách trước khi commit: không có CSV thô, kaggle.json, token, .env, mật khẩu, tệp tạm Office. Commit đầu này ghi nhận việc nhập bộ tài liệu có AI hỗ trợ, không tuyên bố Trí tự viết toàn bộ hoặc Luân đã hoàn thành nghiên cứu.
+Đọc danh sách trước khi commit: không có kaggle.json, token, .env, mật khẩu hoặc tệp tạm Office. CSV Stroke đúng tên là ngoại lệ do Trí yêu cầu đưa vào repo kèm nguồn/hash; raw khác vẫn loại trừ. Commit có AI hỗ trợ cần ghi đúng, không tuyên bố Trí tự viết toàn bộ hoặc Luân đã hoàn thành nghiên cứu.
 
 ```powershell
 git commit -m 'docs: initialize project planning with disclosed AI assistance'

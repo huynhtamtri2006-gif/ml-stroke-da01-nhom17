@@ -15,7 +15,7 @@ Link tài liệu/hình/CSV/test, người thực hiện, phần AI hỗ trợ n�
 ## Review
 
 - [ ] Đạt acceptance của Issue
-- [ ] Không secret hoặc dữ liệu thô
+- [ ] Không secret/dữ liệu người dùng; CSV Stroke là ngoại lệ đúng tên có nguồn/hash, không thêm raw khác ngoài phạm vi
 - [ ] Thuật toán/tiền xử lý được hiểu và kiểm tra phù hợp
 - [ ] Không rò rỉ hoặc kết luận không có bằng chứng
 - [ ] Người còn lại review

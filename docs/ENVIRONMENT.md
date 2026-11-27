@@ -1,6 +1,6 @@
 # Chuẩn bị môi trường sau khi chốt nghiên cứu
 
-Hiện mới có tài liệu, không cần cài cả bộ để tạo GitHub. Chưa cài môi trường dự án hoặc chạy test thuật toán. Máy hiện tại có Python 3.14.7; phiên bản đích đề xuất là 3.12, cần hai người kiểm tra và thống nhất.
+Hiện có tài liệu, CSV và công cụ kiểm kê dùng thư viện chuẩn Python; có thể đọc/kiểm kê ngay, không cần cài toàn bộ thư viện học máy. Chưa xác nhận môi trường học máy chung trên hai máy hoặc chạy test thuật toán. Máy AI kiểm tra có Python 3.14.7; phiên bản đích đề xuất cho phần học máy là 3.12, cần hai người kiểm tra và thống nhất, không tự thay Python hệ thống.
 
 ## Bước kiểm tra
 

@@ -2,6 +2,8 @@
 
 Ngày 26/11/2026. Đây là báo cáo về hiện vật AI đã chuẩn bị trong workspace, không phải báo cáo thành viên đã hoàn thành kế hoạch.
 
+**Bản ghi lịch sử ngày 26/11, không phải trạng thái hiện tại.** CSV, kiểm kê và repository đã được bổ sung sau đó. Xem [rà soát mới nhất](READINESS_REVIEW.md) và [bắt đầu cho thành viên](START_HERE.md).
+
 | Giai đoạn | Hiện có | Chưa hoàn thành | Điều kiện chuyển bước |
 |---|---|---|---|
 | 1 Nghiên cứu | Bản phân tích, nguồn chính thức, rủi ro, yêu cầu, giao thức dự thảo | Hai thành viên đọc, tự tóm tắt, xác nhận metric và quyết định | Nhật ký cá nhân và review chéo; dữ liệu có nguồn và phạm vi rõ |

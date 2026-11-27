@@ -12,7 +12,7 @@ Repository: **[ml-stroke-da01-nhom17](https://github.com/huynhtamtri2006-gif/ml-
 
 Repository lưu trữ quá trình nghiên cứu và phát triển đồ án, từ phân tích dữ liệu, tự xây dựng thuật toán đến thực nghiệm và ứng dụng minh họa. Người mới tham gia có thể làm theo hướng dẫn bên dưới để tải tài liệu, xác định nhiệm vụ và đóng góp bằng tài khoản GitHub cá nhân.
 
-> > **Trạng thái hiện tại:** repository đã có bộ dữ liệu Stroke Prediction Dataset dạng CSV, tài liệu nghiên cứu, từ điển dữ liệu, công cụ kiểm kê và kế hoạch phân công. Thành viên được cấp quyền có thể clone repository để đọc tài liệu, kiểm tra dữ liệu và bắt đầu phân tích. Phần thuật toán học máy và ứng dụng minh họa sẽ được xây dựng theo từng giai đoạn.
+> **Trạng thái hiện tại:** repository đã có bộ dữ liệu Stroke Prediction Dataset dạng CSV, tài liệu nghiên cứu, từ điển dữ liệu, công cụ kiểm kê và kế hoạch phân công. Thành viên được cấp quyền có thể clone repository để đọc tài liệu, kiểm tra dữ liệu và bắt đầu phân tích. Phần thuật toán học máy và ứng dụng minh họa sẽ được xây dựng theo từng giai đoạn.
 
 ## 1. Thành viên và trách nhiệm
 
@@ -125,8 +125,6 @@ Các thư mục thuật toán và ứng dụng hiện chứa hướng dẫn chu�
 
 ## 6. Hướng dẫn tải và sử dụng repository
 
-## Hướng dẫn sử dụng dữ liệu
-
 ### 1. Clone repository
 
 Thành viên cần được cấp quyền truy cập repository Private trước khi thực hiện:
@@ -154,6 +152,10 @@ data/raw/healthcare-dataset-stroke-data.csv
 Có thể xem trực tiếp trên GitHub, mở bằng trình đọc CSV hoặc nạp vào Python để phân tích. Giữ nguyên file gốc; thực hiện làm sạch và biến đổi trong mã tiền xử lý.
 
 ### 3. Đọc tài liệu mô tả
+
+- [Bắt đầu cho Trí và Luân](docs/START_HERE.md): các bước sau khi clone.
+- [Hai PDF đề bài gốc](docs/specifications/README.md): bảng phân đề và yêu cầu giảng viên.
+- [Bảng bàn giao giữa hai người](docs/HANDOFFS.md): đầu vào cần có trước mỗi bước.
 
 - [Từ điển dữ liệu](data/DATA_DICTIONARY.md): ý nghĩa và lưu ý của 12 cột.
 - [Hồ sơ nguồn dữ liệu](data/PROVENANCE.md): nguồn Kaggle, thông tin bản quyền và mã SHA-256.

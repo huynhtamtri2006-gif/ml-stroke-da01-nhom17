@@ -32,4 +32,6 @@ Trí giám sát chung; mỗi người thực hiện bằng tài khoản cá nhâ
 | 2026-12-21 | [[DA01-051] Chuẩn bị bản Release và mô tả hiện vật](docs/issues/DA01-051.md) | [[DA01-052] Review Release candidate và tái lập tối thiểu](docs/issues/DA01-052.md) |
 | 2026-12-22 | [[DA01-053] Nộp bài và tạo Release sau nghiệm thu](docs/issues/DA01-053.md) | [[DA01-054] Đối chiếu bản nộp và chốt báo cáo đóng góp](docs/issues/DA01-054.md) |
 
+Các phụ thuộc kỹ thuật đã được rà soát ngày 27/11/2026, đồng bộ với Issue dự thảo, CSV và hai Word. Xem [bảng bàn giao](docs/HANDOFFS.md); ngày là kế hoạch, không tự đánh dấu công việc đã xong.
+
 Chi tiết cá nhân ở docs/tasks/TRI_DAILY.md và LUAN_DAILY.md; file Word tương ứng nằm ở reports/planning/. Để trống Evidence và Actual Hours đến khi có dữ liệu thực. Nếu đổi kế hoạch, ghi lý do/ngày thay đổi trong Issue, không sửa quá khứ thành đã đúng hạn.

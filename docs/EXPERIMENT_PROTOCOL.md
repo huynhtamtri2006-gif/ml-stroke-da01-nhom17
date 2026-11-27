@@ -4,6 +4,8 @@
 
 Giữ riêng 20% phân tầng làm test cuối. Trên 80% phát triển, tạo 5 lần lặp, mỗi lần 5-fold phân tầng; lưu seed 20262027…20262031 và chỉ số mẫu của 25 cặp train/evaluation. Đây là cách đề xuất kết hợp yêu cầu 80/20 và giao thức riêng DA-01, cần nhóm chốt trước chạy.
 
+Schema one-hot phải được thống nhất trước chạy để cùng k có ý nghĩa trên mọi fold. Có thể khai báo các mức từ mô tả nguồn đã chốt, không suy ra từ tập đánh giá; hoặc có quy tắc train-only và giới hạn k hợp lệ được báo cáo rõ. Mức Other chỉ có một mẫu, có thể không xuất hiện trong train của một fold; không fit encoder toàn CSV để chữa sự khác nhau số cột. Nếu dùng schema cố định, cột zero/phụ thuộc tuyến tính phải được xử lý đúng trong PCA/LDA và kiểm thử.
+
 Mỗi outer fold: fit toàn bộ imputation/encoder/scaler/PCA hoặc LDA chỉ trên outer train. Nếu cần tuning, dùng inner split/CV trong outer train; chọn C/lambda, RF params, class weights và ngưỡng ở trong. Không chọn siêu tham số từ outer evaluation rồi báo nó là hiệu năng độc lập. Dùng cùng outer fold để so cấu hình; ngân sách tuning tương đương.
 
 Quét từng k là khảo sát cấu hình; kết luận mô hình k tốt nhất phải dựa thêm test cuối chưa mở hoặc lựa chọn k bên trong inner CV. Test cuối không được dùng để chọn ngưỡng, hiệu chuẩn hay chỉnh màu/quy tắc theo hiệu năng.
@@ -30,4 +32,4 @@ Gom cụm K-means trên PCA không nhìn stroke, thống kê nhãn sau. Chọn s
 
 Logistic: so cùng loss/normalization/class weights/L2/bias, gradient sai phân hữu hạn, xác suất MAE <1e-3 theo đề khi hội tụ. PCA: centering, variance, projection/reconstruction, xử lý dấu; phổ có trị riêng bằng nhau nên so không gian chiếu thay vì buộc một cơ sở duy nhất. LDA: cùng prior/định nghĩa scatter, cosine tuyệt đối ≥0.999 với quy ước khớp; xử lý hạng thiếu rõ ràng. Metrics: cùng quy tắc hình thang, ties và endpoint.
 
-Chưa có dữ liệu, kết quả, p-value hoặc cấu hình thắng. Mọi giá trị sau này được sinh bằng chương trình và liên kết hiện vật gốc.
+CSV và báo cáo kiểm kê đã có. Chưa có kết quả mô hình, p-value hoặc cấu hình thắng; mọi giá trị đánh giá sau này phải được sinh bằng chương trình và liên kết hiện vật gốc. Protocol này vẫn là thiết kế cần hai thành viên xác nhận trước lần chạy đầu, không phải bằng chứng CV đã thực hiện.

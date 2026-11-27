@@ -40,7 +40,7 @@ Sản phẩm bàn giao: docs/environment-check.md; bài tập tự làm trong do
 
 Tiêu chí nghiệm thu: Ghi Python/thư viện thực; giải thích hình dạng ma trận và gradient; kiểm tra ví dụ nhỏ, không dùng lõi sklearn thay NumPy.
 
-Phụ thuộc: DA01-004. Xem nội dung Issue dự thảo tại docs/issues/DA01-006.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-002. Xem nội dung Issue dự thảo tại docs/issues/DA01-006.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -54,7 +54,7 @@ Sản phẩm bàn giao: models/logistic.py bước loss/gradient; tests gradient
 
 Tiêu chí nghiệm thu: Ổn định số, L2 không phạt bias, gradient khớp sai phân; có giải thích từng phần và test.
 
-Phụ thuộc: DA01-006, DA01-003. Xem nội dung Issue dự thảo tại docs/issues/DA01-008.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-004, DA01-006. Xem nội dung Issue dự thảo tại docs/issues/DA01-008.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -68,7 +68,7 @@ Sản phẩm bàn giao: models/logistic.py; models/doi_chieu.py; test Logistic.
 
 Tiêu chí nghiệm thu: Bản NumPy chạy trước đối chiếu; khớp loss/weights/L2; xác suất MAE <1e-3 khi hội tụ; ghi kiểm tra thật.
 
-Phụ thuộc: DA01-008. Xem nội dung Issue dự thảo tại docs/issues/DA01-010.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-007, DA01-008. Xem nội dung Issue dự thảo tại docs/issues/DA01-010.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -82,7 +82,7 @@ Sản phẩm bàn giao: models/giam_chieu.py phần PCA; tests PCA.
 
 Tiêu chí nghiệm thu: Có centering, transform/inverse, variance; test so sklearn sau tự viết; xử lý dấu và cơ sở suy biến.
 
-Phụ thuộc: DA01-010. Xem nội dung Issue dự thảo tại docs/issues/DA01-012.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-004, DA01-006. Xem nội dung Issue dự thảo tại docs/issues/DA01-012.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -110,7 +110,7 @@ Sản phẩm bàn giao: models/metrics.py; experiments/cau_hinh.py; runner/test.
 
 Tiêu chí nghiệm thu: PR-AUC hình thang từ score có xử lý ties; seed một chỗ; đúng 25 bộ chia phân tầng; inner tuning thiết kế rõ.
 
-Phụ thuộc: DA01-014. Xem nội dung Issue dự thảo tại docs/issues/DA01-016.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-004, DA01-007, DA01-010, DA01-012, DA01-014. Xem nội dung Issue dự thảo tại docs/issues/DA01-016.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -124,7 +124,7 @@ Sản phẩm bàn giao: baseline configs; tests đối chiếu; kết quả pilo
 
 Tiêu chí nghiệm thu: Đoán âm, unweighted LR, balanced sklearn, RF; pilot thật có provenance; không gọi pilot là kết quả cuối.
 
-Phụ thuộc: DA01-016. Xem nội dung Issue dự thảo tại docs/issues/DA01-018.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-007, DA01-010, DA01-016. Xem nội dung Issue dự thảo tại docs/issues/DA01-018.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -136,9 +136,9 @@ Giai đoạn: P7 Build; milestone: M4 Experiments and Application; ưu tiên: P1
 
 Sản phẩm bàn giao: results/fold_metrics.csv; metadata và nhật ký chạy.
 
-Tiêu chí nghiệm thu: Mọi cấu hình đúng 25 đo hoặc ghi rõ phần thiếu; cùng fold; preprocessing train-only; không chọn threshold trên evaluation.
+Tiêu chí nghiệm thu: Đủ 25 lần đo cho MỖI cấu hình bắt buộc; cùng fold; preprocessing train-only; không chọn threshold trên evaluation. Thiếu record thì chưa nghiệm thu, ghi rõ phần thiếu.
 
-Phụ thuộc: DA01-018. Xem nội dung Issue dự thảo tại docs/issues/DA01-020.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-009, DA01-010, DA01-012, DA01-014, DA01-016, DA01-018. Xem nội dung Issue dự thảo tại docs/issues/DA01-020.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -166,7 +166,7 @@ Sản phẩm bàn giao: models/calibration.py; tests PAVA/Brier.
 
 Tiêu chí nghiệm thu: Calibration tách phần fit; PAVA đơn điệu và xử lý ties; reliability/Brier test trên ví dụ nhỏ.
 
-Phụ thuộc: DA01-022. Xem nội dung Issue dự thảo tại docs/issues/DA01-024.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-016, DA01-020. Xem nội dung Issue dự thảo tại docs/issues/DA01-024.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -180,7 +180,7 @@ Sản phẩm bàn giao: results/calibration.csv; reliability ≥3 k; threshold t
 
 Tiêu chí nghiệm thu: Quét tỷ số 5–100, Brier theo k cạnh PR-AUC, không fit/tune trên outer evaluation/test cuối.
 
-Phụ thuộc: DA01-024. Xem nội dung Issue dự thảo tại docs/issues/DA01-026.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-020, DA01-024. Xem nội dung Issue dự thảo tại docs/issues/DA01-026.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -194,7 +194,7 @@ Sản phẩm bàn giao: hình/bảng calibration, k, baseline; dự thảo kết
 
 Tiêu chí nghiệm thu: Các câu kết luận có số thật và uncertainty; phân biệt AP/PR-AUC; đủ hướng mở rộng và ghi thất bại.
 
-Phụ thuộc: DA01-026. Xem nội dung Issue dự thảo tại docs/issues/DA01-028.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-022, DA01-026. Xem nội dung Issue dự thảo tại docs/issues/DA01-028.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -222,7 +222,7 @@ Sản phẩm bàn giao: bản báo cáo phần Luân; phép tính PCA 6 điểm.
 
 Tiêu chí nghiệm thu: Công thức có nguồn, 6 bệnh nhân 2 biến/3+3; đủ covariance/eigen/projection; bảng khớp CSV.
 
-Phụ thuộc: DA01-030. Xem nội dung Issue dự thảo tại docs/issues/DA01-032.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-022, DA01-028, DA01-030. Xem nội dung Issue dự thảo tại docs/issues/DA01-032.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -236,7 +236,7 @@ Sản phẩm bàn giao: slide bản đầu; câu hỏi/đáp; review báo cáo.
 
 Tiêu chí nghiệm thu: Giải thích được weights/PCA/LDA/calibration/leakage; mọi số khớp hiện vật; hạn chế được nêu.
 
-Phụ thuộc: DA01-032. Xem nội dung Issue dự thảo tại docs/issues/DA01-034.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-028, DA01-032. Xem nội dung Issue dự thảo tại docs/issues/DA01-034.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -250,7 +250,7 @@ Sản phẩm bàn giao: requirements khóa; log tái lập; manifest kết quả
 
 Tiêu chí nghiệm thu: Ghi Python/packages/seed/hash thật; tạo lại bảng/hình từ results; chỉ báo checks đã thực chạy.
 
-Phụ thuộc: DA01-034. Xem nội dung Issue dự thảo tại docs/issues/DA01-036.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-028, DA01-030, DA01-034. Xem nội dung Issue dự thảo tại docs/issues/DA01-036.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -264,7 +264,7 @@ Sản phẩm bàn giao: slide cuối; bảng kiểm nghiệm thu; câu trả l�
 
 Tiêu chí nghiệm thu: Cả hai trả lời chéo được, không đọc số bịa; ghi hạng mục chưa đạt, không tự tick đủ.
 
-Phụ thuộc: DA01-036. Xem nội dung Issue dự thảo tại docs/issues/DA01-038.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-034, DA01-036, DA01-037. Xem nội dung Issue dự thảo tại docs/issues/DA01-038.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -278,7 +278,7 @@ Sản phẩm bàn giao: ghi chú câu hỏi, phản hồi và hành động ti�
 
 Tiêu chí nghiệm thu: Giải thích phần thuật toán/thực nghiệm; chỉ ghi phản hồi thật và ai trả lời.
 
-Phụ thuộc: DA01-038. Xem nội dung Issue dự thảo tại docs/issues/DA01-040.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-037, DA01-038. Xem nội dung Issue dự thảo tại docs/issues/DA01-040.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -292,7 +292,7 @@ Sản phẩm bàn giao: danh sách sửa báo cáo/thuật toán nếu cần.
 
 Tiêu chí nghiệm thu: Phân biệt sửa trình bày với cần chạy lại; không chỉnh số để đẹp.
 
-Phụ thuộc: DA01-040. Xem nội dung Issue dự thảo tại docs/issues/DA01-042.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-039, DA01-040. Xem nội dung Issue dự thảo tại docs/issues/DA01-042.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -306,7 +306,7 @@ Sản phẩm bàn giao: PR tài liệu hoặc kết quả chạy lại nếu c�
 
 Tiêu chí nghiệm thu: Mọi bảng mới có provenance; không chạy lại rộng nếu không có lý do.
 
-Phụ thuộc: DA01-042. Xem nội dung Issue dự thảo tại docs/issues/DA01-044.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-041, DA01-042. Xem nội dung Issue dự thảo tại docs/issues/DA01-044.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -334,7 +334,7 @@ Sản phẩm bàn giao: tự thuật Luân; bibliography/license review.
 
 Tiêu chí nghiệm thu: Nguồn thực vận dụng, giấy phép đúng; Trí review tính trung thực.
 
-Phụ thuộc: DA01-046. Xem nội dung Issue dự thảo tại docs/issues/DA01-048.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-045, DA01-046. Xem nội dung Issue dự thảo tại docs/issues/DA01-048.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -348,7 +348,7 @@ Sản phẩm bàn giao: log kiểm tra có chọn lọc; bảng kết quả cu�
 
 Tiêu chí nghiệm thu: Không còn khác biệt giữa Word/slide/results; lỗi có thật mới chạy lại tests liên quan.
 
-Phụ thuộc: DA01-048. Xem nội dung Issue dự thảo tại docs/issues/DA01-050.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-043, DA01-044, DA01-047, DA01-048. Xem nội dung Issue dự thảo tại docs/issues/DA01-050.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -362,7 +362,7 @@ Sản phẩm bàn giao: review bản dự kiến; manifest ký nhận bằng Iss
 
 Tiêu chí nghiệm thu: Kiểm tra nạp mô hình/hình/báo cáo; ghi giới hạn và phần chưa chạy.
 
-Phụ thuộc: DA01-050. Xem nội dung Issue dự thảo tại docs/issues/DA01-052.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-049, DA01-050, DA01-051. Xem nội dung Issue dự thảo tại docs/issues/DA01-052.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
 
@@ -376,9 +376,11 @@ Sản phẩm bàn giao: xác nhận bản nộp/manifest; hồ sơ Luân cuối.
 
 Tiêu chí nghiệm thu: Bản nộp khớp Release; bảng công việc phản ánh kết quả thật; vấn đề còn lại được ghi rõ.
 
-Phụ thuộc: DA01-052. Xem nội dung Issue dự thảo tại docs/issues/DA01-054.md; gắn số/link Issue thật sau khi nhập GitHub.
+Phụ thuộc: DA01-052, DA01-053. Xem nội dung Issue dự thảo tại docs/issues/DA01-054.md; gắn số/link Issue thật sau khi nhập GitHub.
 
 Cuối buổi: ghi việc tự làm, điều đã học, evidence, kiểm tra, khó khăn và bước tiếp; người còn lại review. Chưa có minh chứng thì không ghi Done.
+
+Ngày trong bảng là mốc kế hoạch; có thể bắt đầu sớm khi đầu vào đã sẵn sàng. Phụ thuộc dùng để nghiệm thu phần tích hợp; phần nghiên cứu/khung giao diện có thể làm song song. Xem docs/HANDOFFS.md.
 
 ## Nghiệm thu và bảo vệ
 

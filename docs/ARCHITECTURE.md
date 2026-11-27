@@ -43,4 +43,4 @@ data/, models/, experiments/, analysis/, app/, tests/ theo 07b; docs/, reports/,
 
 Unit: thuật toán, gradient, metrics, reducer. Integration: train-only preprocessing, save/load cùng dự đoán, API input/error/cancel job. Scientific: cùng fold và đủ 25 record, provenance và độ đo đúng. Acceptance: 6 màn hình, 1920/768, user testing, offline trên máy khác, tái lập ba lệnh.
 
-Chưa thêm GitHub Actions khi chỉ có tài liệu. Sau khi có test đầu tiên: CI chạy test nhẹ bằng dữ liệu tổng hợp, không tải Kaggle/huấn luyện đủ CV, không cần secret. Chạy full experiment cục bộ. Release chỉ sau nghiệm thu; kèm manifest và kết quả thực tế, không kèm credential/dataset thô.
+Chưa thêm GitHub Actions; hiện đã có test nhẹ cho công cụ kiểm kê, chưa có test thuật toán học máy. Nếu thêm CI ở giai đoạn lập trình: chạy test nhẹ bằng fixture, không tải Kaggle/huấn luyện đủ CV, không cần secret. Chạy full experiment cục bộ. Release chỉ sau nghiệm thu; kèm manifest và kết quả thực tế, không kèm credential hoặc dữ liệu người dùng nhập. CSV Stroke chỉ định đã được chủ dự án chọn đưa vào repo kèm thông tin nguồn.
