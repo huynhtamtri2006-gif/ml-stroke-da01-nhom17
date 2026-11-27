@@ -18,7 +18,7 @@ Các lựa chọn dưới đây là đề xuất để nhóm duyệt; chưa có 
 | CSV/NPZ/JSON | Nhẹ, dễ kiểm tra, tái lập | Không phù hợp nhiều người ghi đồng thời | Chọn lưu kết quả và hiện vật |
 | SQLite/PostgreSQL | Quản lý giao dịch, truy vấn | Tăng phạm vi; chưa có nhu cầu | Chưa dùng cơ sở dữ liệu |
 | pytest | Kiểm chứng thuật toán và chống rò rỉ | Phải chọn tolerance phù hợp | Dùng khi bắt đầu có mã |
-| Git + GitHub Private + Projects | Lịch sử thật, Issue, PR và quản lý kế hoạch | Một số kiểm soát Private cần gói trả phí | Chọn quy trình miễn phí; review bằng quy ước nếu thiếu bảo vệ nhánh |
+| Git + GitHub Public + Projects | Lịch sử thật, Issue, PR và quản lý kế hoạch; đọc/clone công khai | Push nhánh cần quyền; phải cấu hình bảo vệ main riêng | Repository Public; nhánh nhiệm vụ + PR, Trí quyết định merge; chưa xác minh Rulesets thực tế |
 
 Máy đang dùng có Python 3.14.7; không tự đổi Python toàn hệ thống. Cấu hình RAM/CPU của hai máy chưa được xác nhận. Bắt đầu bằng tập nhỏ và đo thời gian trước quét đủ. Không khẳng định máy đạt cấu hình dựa trên suy đoán.
 

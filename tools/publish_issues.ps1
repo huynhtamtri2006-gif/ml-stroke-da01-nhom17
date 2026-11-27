@@ -16,7 +16,7 @@ if (-not (Get-Command gh -ErrorAction SilentlyContinue)) { throw 'Cần cài gh 
 $RepoRaw = & gh repo view $Repository --json nameWithOwner,visibility
 if ($LASTEXITCODE -ne 0) { throw 'Không đọc được repository; kiểm tra đăng nhập/quyền/repo đã tạo.' }
 $RepoState = $RepoRaw | ConvertFrom-Json
-if ($RepoState.nameWithOwner -ne $Repository -or $RepoState.visibility -ne 'PRIVATE') { throw 'Chỉ nhập vào đúng repository Private đã chỉ định.' }
+if ($RepoState.nameWithOwner -ne $Repository -or $RepoState.visibility -ne 'PUBLIC') { throw 'Chỉ nhập vào đúng repository Public đã chỉ định.' }
 $ExistingRaw = & gh issue list --repo $Repository --state all --limit 1000 --json number,title,url
 if ($LASTEXITCODE -ne 0) { throw 'Không đọc được Issue đang có; dừng để tránh tạo trùng.' }
 $Existing = @($ExistingRaw | ConvertFrom-Json)

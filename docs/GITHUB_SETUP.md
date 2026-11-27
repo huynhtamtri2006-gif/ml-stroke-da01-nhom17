@@ -4,14 +4,14 @@
 
 Trí đã khởi tạo repository, commit và push bằng tài khoản cá nhân; main cục bộ đang theo dõi origin/main. Git có sẵn; GitHub CLI chưa được xác nhận cài. Chưa xác minh Project, Issue hoặc lời mời Luân từ xa. Các bước tạo repo bên dưới dành cho dự án chưa khởi tạo; không git init hoặc tạo repo trùng lần nữa.
 
-Tên đề xuất: ml-stroke-da01-nhom17, owner huynhtamtri2006-gif, visibility Private. Luân cung cấp username trước khi mời/gán việc thật.
+Repository: ml-stroke-da01-nhom17, owner huynhtamtri2006-gif, visibility **Public** theo cập nhật của Trí. Luân có thể clone ngay; cần username để mời làm collaborator, gán Issue và cho phép push nhánh vào repo.
 
 ## Cách bằng trình duyệt
 
 1. Trí đăng nhập tài khoản huynhtamtri2006-gif, vào https://github.com/new . Owner chọn chính tài khoản này; Repository name nhập ml-stroke-da01-nhom17.
-2. Chọn Private. Để trống lựa chọn tạo README, .gitignore, license vì bộ cục bộ đã có. Create repository.
-3. Trong repository → Settings → Collaborators hoặc Collaborators and teams → Add people; nhập username Luân, gửi lời mời. Luân tự chấp nhận bằng tài khoản cá nhân. Nếu cần giảng viên xem repo Private, mời đúng tài khoản được cung cấp.
-4. Kiểm tra biểu tượng Private; chưa đổi Public. Cấp quyền Project riêng theo PROJECTS_SETUP.md; có quyền repo không tự bảo đảm có quyền Project.
+2. Với dự án mới chọn Public, để trống lựa chọn tạo README, .gitignore và license nếu bộ cục bộ đã có. Repo hiện tại đã tạo: không tạo lại hoặc đổi visibility lần nữa.
+3. Trong repository → Settings → Collaborators hoặc Collaborators and teams → Add people; nhập username Luân, gửi lời mời để cấp quyền đóng góp. Luân chấp nhận bằng tài khoản cá nhân. Chỉ đọc/clone repo Public không cần lời mời.
+4. Repo hiện Public. Quyền và visibility của Project độc lập theo PROJECTS_SETUP.md; không tự đổi Project sang Public chỉ vì repo đã Public. Bật Rulesets bảo vệ main riêng nếu muốn cưỡng chế chỉ Trí merge.
 
 ## Đưa bộ file lên bằng Git cá nhân
 
@@ -52,7 +52,7 @@ gh auth status
 gh repo view huynhtamtri2006-gif/ml-stroke-da01-nhom17 --json nameWithOwner,visibility
 ```
 
-Không chạy gh repo create nếu đã tạo cùng repo trong trình duyệt. Nếu chọn CLI thay bước tạo bằng web, tại bộ thư mục đã init/commit, có thể dùng gh repo create huynhtamtri2006-gif/ml-stroke-da01-nhom17 --private --source . --remote origin --push, chỉ khi repo và origin chưa tồn tại.
+Không chạy gh repo create nếu đã có repo. Với dự án mới chưa có repo/origin, có thể dùng gh repo create huynhtamtri2006-gif/ml-stroke-da01-nhom17 --public --source . --remote origin --push. Không chạy lại lệnh này cho repo hiện tại.
 
 ## Tạo Issue sớm
 
@@ -67,6 +67,6 @@ Tùy chọn nhập tất cả bằng tools/publish_issues.ps1 sau khi có gh. Ch
 .\tools\publish_issues.ps1 -LuanUsername 'USERNAME_LUAN' -Execute
 ```
 
-Script kiểm tra đúng repo Private, đọc Issue đang có để tránh tạo trùng Task ID, tạo milestone và Issue; không tự cập nhật custom field Project. Sau mỗi lần chạy đọc issue_map.json và kiểm tra trên GitHub. Tác vụ chưa nhập vẫn là bản dự thảo cục bộ.
+Script kiểm tra đúng repo Public đã chỉ định, đọc Issue đang có để tránh tạo trùng Task ID, tạo milestone và Issue; không tự cập nhật custom field Project. Sau mỗi lần chạy đọc issue_map.json và kiểm tra trên GitHub. Tác vụ chưa nhập vẫn là bản dự thảo cục bộ. Việc đổi guard từ Private sang Public không tự chạy script hoặc thay đổi visibility từ xa.
 
 Nguồn: [Tạo repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository); [GitHub CLI](https://cli.github.com/).

@@ -4,7 +4,7 @@ Bắt đầu kế hoạch 26/11/2026. Bảo vệ theo tài liệu: 15/12/2026, n
 
 | Milestone | Hạn | Phạm vi | Điều kiện qua cổng |
 |---|---|---|---|
-| M1 Research and Setup | 28/11 | P1 nghiên cứu; P3 repo; P4 Projects; P5 kế hoạch; P6 workflow | Hai người đọc, chốt mục tiêu/metric, dữ liệu có nguồn, repo Private/Project và Issue thật có quyền truy cập |
+| M1 Research and Setup | 28/11 | P1 nghiên cứu; P3 repo; P4 Projects; P5 kế hoạch; P6 workflow | Hai người đọc, chốt mục tiêu/metric, dữ liệu có nguồn; repo Public và Project/Issue có quyền đóng góp phù hợp |
 | M2 Design and Data | 30/11 | P2 kiến trúc; dữ liệu/EDA; bắt đầu P7 | Hợp đồng module, wireframe, kiểm kê và pipeline train-only |
 | M3 Core and Validation | 04/12 | Logistic/PCA/LDA/metrics và kiểm chứng | Tests đối chiếu đạt; baseline có kế hoạch tuning; chưa cần tuyên bố kết quả thắng |
 | M4 Experiments and Application | 10/12 | Quét k, baseline, cụm, calibration, 6 màn hình | Đủ record 25/cấu hình, thống kê, một mở rộng đầy đủ và app tích hợp |

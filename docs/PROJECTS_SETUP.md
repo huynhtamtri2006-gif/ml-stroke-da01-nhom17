@@ -2,7 +2,7 @@
 
 ## Tạo Project và quyền
 
-Trí mở trang cá nhân GitHub → Projects → New project → Table → tên DA01 Nhom17 Research and Delivery. Trong Settings kiểm tra visibility Private và thêm Luân ở Manage access với quyền Write; Trí giữ Admin. Repository cũng phải Private; hai quyền này độc lập. Liên kết Project vào repository bằng mục Projects hoặc thêm repo theo tùy chọn giao diện hiện tại. Thêm Issue thực vào Project, không để nhiệm vụ chỉ là draft item khi cần theo dõi PR/đóng góp.
+Trí mở trang cá nhân GitHub → Projects → New project → Table → tên DA01 Nhom17 Research and Delivery. Repository hiện Public; **Project có visibility và quyền riêng**, có thể giữ Private để quản lý nội bộ. Thêm Luân ở Manage access với quyền Write, Trí giữ Admin; đọc được repo Public không tự có quyền sửa Project. Không tự đổi Project sang Public nếu nhóm chưa chọn. Liên kết Project vào repo và thêm Issue thật, tránh chỉ để draft item khi cần theo dõi PR/đóng góp.
 
 Nguồn: [Creating a project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project); [Managing project access](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/managing-access-to-your-projects).
 

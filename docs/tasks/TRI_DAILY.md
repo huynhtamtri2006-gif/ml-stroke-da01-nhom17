@@ -8,9 +8,9 @@ Nhiệm vụ: Đọc đề, xác nhận phạm vi và thiết lập repo/Project
 
 Giai đoạn: P1 Research; milestone: M1 Research and Setup; ưu tiên: P1 High. Bắt đầu và hạn trong ngày ghi trên; nếu chưa xong cập nhật Issue thật và nguyên nhân.
 
-Sản phẩm bàn giao: docs/notes/Tri_2026-11-26.md; repo Private/Project nếu có quyền; Issue đầu.
+Sản phẩm bàn giao: docs/notes/Tri_2026-11-26.md; repo Public; Project có quyền phù hợp; Issue đầu.
 
-Tiêu chí nghiệm thu: Đối chiếu nhóm 17 = DA-01; ghi yêu cầu và câu hỏi; repo/Project Private được kiểm tra hoặc ghi rõ phần đang chờ; không có secret.
+Tiêu chí nghiệm thu: Đối chiếu nhóm 17 = DA-01; ghi yêu cầu và câu hỏi; repo Public và quyền Project được kiểm tra hoặc ghi rõ phần đang chờ; không có secret.
 
 Phụ thuộc: Không có nhiệm vụ trước. Xem nội dung Issue dự thảo tại docs/issues/DA01-001.md; gắn số/link Issue thật sau khi nhập GitHub.
 

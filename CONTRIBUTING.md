@@ -39,4 +39,4 @@ Commit/cất thay đổi đang làm trước; ở nhánh nhiệm vụ chạy git
 
 Cập nhật Issue với: việc thực làm, kết quả/đường dẫn/commit/PR, kiểm tra đã chạy, lỗi và bước tiếp. Ghi Actual Hours chỉ nếu nhóm muốn theo dõi; không bắt buộc số giờ/ngày. Cập nhật Status và Progress có căn cứ. Đang chờ review không là Done; thiếu acceptance/evidence không ghi 100%.
 
-Review kiểm tra đúng yêu cầu, hiểu công thức, không leakage, tests thật, source/license, không secret. Không chấm thành viên theo số commit đơn thuần. Repository Private Free có thể thiếu branch protection; giữ quy ước review, không buộc mua gói hoặc đổi Public.
+Review kiểm tra đúng yêu cầu, hiểu công thức, không leakage, tests thật, source/license, không secret. Không chấm thành viên theo số commit đơn thuần. Repository hiện Public: bất kỳ ai có thể đọc/clone; chỉ thành viên có quyền phù hợp mới push được vào repo. Luân push nhánh nhiệm vụ và tạo PR; Trí đọc và quyết định merge main. Public không tự chặn push main: Trí cần bật Rulesets/bảo vệ nhánh phù hợp để cưỡng chế quy trình; chưa xác minh cấu hình thực tế.
