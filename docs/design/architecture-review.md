@@ -136,5 +136,5 @@ Không tạo số liệu hay dự đoán giả để điền vào giao diện.
 
 AI hỗ trợ giải thích luồng xử lý và soạn bản nháp.
 
-Trí cần đọc, đối chiếu và quyết định thiết kế.
+Trí cần đọc, đối chiếu và quyết định thiết kế.	
 
