@@ -45,6 +45,6 @@ EDA mô tả toàn bộ dữ liệu phải ghi rõ; EDA định hướng mô hì
 
 ## 6. Clone để dùng chung
 
-Một lần chuẩn bị CSV hợp lệ và điều kiện chia sẻ: Trí bổ sung đúng file raw được phép vào repo, commit kèm nguồn và kiểm kê, rồi push. Luân clone hoặc git pull --ff-only và chạy lại kiểm kê. So SHA-256 giữa hai máy; báo cáo khác thời điểm tạo là bình thường nhưng hash raw và các số thống kê phải giống.
+Theo yêu cầu của Trí, `.gitignore` được chỉnh để cho phép đúng file CSV Stroke trong raw. Trí commit file cùng nguồn và kiểm kê, rồi push. Sau đó Luân clone hoặc git pull --ff-only để nhận CSV và chạy lại kiểm kê. So SHA-256 giữa hai máy; báo cáo khác thời điểm tạo là bình thường nhưng hash raw và các số thống kê phải giống.
 
-Nếu CSV không được phép đưa vào repo hoặc điều kiện chưa rõ, người clone vẫn cần tải CSV riêng; không tuyên bố chỉ clone đã có toàn bộ dữ liệu. Đường dẫn là tương đối nên có thể dùng ở thư mục bất kỳ.
+Giữ thông tin bản quyền tác giả gốc ở data/PROVENANCE.md, không nhận là dữ liệu nhóm tự thu thập. Nếu bản clone cũ chưa có file, kiểm tra Trí đã push và Luân đã cập nhật main. Đường dẫn là tương đối nên có thể dùng ở thư mục bất kỳ.

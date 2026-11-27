@@ -2,16 +2,16 @@
 
 Mục tiêu: hai thành viên sử dụng cùng CSV gốc, hiểu từng cột và có công cụ kiểm kê trước khi phân tích.
 
-**Máy của Trí đã có CSV thật và báo cáo kiểm kê ngày 27/11/2026.** Số lượng khớp đề, hash đã đối chiếu. CSV chưa được theo dõi trong Git: người clone cần tải riêng theo các bước dưới. Xem [báo cáo kiểm kê](inventory/inventory.md), [hồ sơ nguồn](PROVENANCE.md) và [nhận xét ban đầu](../docs/INITIAL_DATA_FINDINGS.md).
+**Đã chuẩn bị CSV thật và báo cáo kiểm kê ngày 27/11/2026.** Số lượng khớp đề, hash đã đối chiếu. Theo yêu cầu của Trí, repo được cấu hình để chứa đúng file `data/raw/healthcare-dataset-stroke-data.csv`; sau khi Trí commit/push, người clone sẽ nhận file này cùng tài liệu, không cần tải lại. Xem [báo cáo kiểm kê](inventory/inventory.md), [hồ sơ nguồn](PROVENANCE.md) và [nhận xét ban đầu](../docs/INITIAL_DATA_FINDINGS.md).
 
-## Lấy bộ dữ liệu chỉ định
+## Lấy bộ dữ liệu chỉ định nếu bản clone chưa có CSV
 
 1. Mở https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset .
 2. Đăng nhập Kaggle nếu được yêu cầu. Đọc mục License và ghi vào [PROVENANCE.md](PROVENANCE.md); đây là điều kiện để quyết định có đưa CSV lên repo nhóm hay không.
 3. Bấm Download, giải nén tệp nhận được, tìm đúng healthcare-dataset-stroke-data.csv.
 4. Copy nguyên file vào data/raw/healthcare-dataset-stroke-data.csv. Không mở rồi lưu lại bằng Excel trước kiểm kê vì có thể đổi byte/định dạng.
 
-License do Trí đọc từ trang nguồn: **Data files © Original Authors**. Chưa xác nhận điều kiện cho phép tái phân phối CSV vào repo; không đổi nó thành CC0/CC BY.
+License do Trí đọc từ trang nguồn: **Data files © Original Authors**. Giữ thông tin bản quyền của tác giả gốc; không đổi thành CC0/CC BY hoặc nhận là dữ liệu nhóm tự thu thập. Quyết định đưa file vào repo theo yêu cầu của Trí không phải xác nhận độc lập về quyền tái phân phối.
 
 ## Kiểm tra ngay
 
@@ -40,6 +40,6 @@ Hash cần giống (không phân biệt hoa/thường): `644d473b05d2797006bd948
 
 ## File nào được đưa lên GitHub?
 
-Tài liệu và mã kiểm kê có thể commit. CSV raw hiện vẫn bị .gitignore loại trừ. Khi điều kiện nguồn được xác nhận cho phép chia sẻ, thêm ngoại lệ chỉ cho file CSV này, giữ source/license/hash rồi commit; nếu chưa xác nhận thì hai người tải riêng và đối chiếu hash. Không đưa kaggle.json, token hoặc .env lên repo.
+Ngoài tài liệu và công cụ, `.gitignore` đã cho phép đúng một file: `data/raw/healthcare-dataset-stroke-data.csv`, theo yêu cầu của Trí để hai người clone cùng dữ liệu. Các file raw khác, dữ liệu xử lý, môi trường và credential vẫn bị loại trừ. Giữ source/license/hash kèm CSV, không đưa kaggle.json, token hoặc .env lên repo.
 
 Kết quả kiểm kê thật hiện có: 5.110 dòng, 12 cột, 249 stroke = 1, 4.861 stroke = 0, 201 BMI thiếu; không có trùng dòng/id. Khi dùng bản mới, chạy lại và lưu báo cáo đúng bản đó. Không ghi kiểm kê của Trí là công việc Luân đã thực hiện.

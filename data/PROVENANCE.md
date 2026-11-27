@@ -22,7 +22,8 @@ Trí đã đặt CSV vào thư mục raw và chạy công cụ kiểm kê. AI đ
 | Phiên bản dataset nếu có | Chưa ghi nhận |
 | License trên Data Card do Trí cung cấp | Data files © Original Authors |
 | Mã loại trong danh sách License của Kaggle | copyright-authors |
-| Quyền chia sẻ lại CSV vào repository | Chưa xác nhận từ điều khoản cụ thể; giữ raw ngoài Git |
+| Điều khoản tái phân phối được kiểm chứng độc lập | Chưa xác nhận từ điều khoản cụ thể; không tự gán giấy phép mở |
+| Quyết định của chủ dự án | Trí yêu cầu đưa đúng CSV này vào repo để thành viên clone dùng chung; đã thêm ngoại lệ .gitignore, chờ commit/push |
 | CSV có được chỉnh sửa trước khi tải vào dự án không | Chưa có thông tin bổ sung; công cụ không sửa CSV |
 | SHA-256 đo từ file cục bộ | 644d473b05d2797006bd94865e4f8bb057f0c721617911613c82c8fcfc707420 |
 | Kích thước file | 316.971 bytes |
@@ -37,6 +38,6 @@ Thông tin máy đọc được và hash tham chiếu nằm trong [dataset_refer
 
 ## Chia sẻ cho thành viên clone
 
-Mục tiêu là có bản dữ liệu nhất quán trên hai máy. Khi xác nhận điều kiện nguồn cho phép chia sẻ CSV trong repo nhóm, thêm đúng một ngoại lệ .gitignore cho file được chỉ định, giữ ghi nguồn/điều kiện và SHA-256. Không bỏ toàn bộ quy tắc loại trừ raw hoặc dùng git add -f để bỏ qua kiểm tra.
+Theo yêu cầu trực tiếp của Trí, dự án được cấu hình đưa `data/raw/healthcare-dataset-stroke-data.csv` vào repository, giữ nguyên file gốc và thông tin nguồn/bản quyền. Chỉ ngoại lệ cho file này; các raw khác vẫn bị bỏ qua. Sau commit/push, Luân clone hoặc pull để nhận CSV, chạy kiểm kê và đối chiếu hash.
 
-Nếu chưa xác nhận được điều kiện, giữ CSV ở máy; hai người tải từ cùng nguồn và đối chiếu SHA-256. Nhóm vẫn có thể commit từ điển dữ liệu, hướng dẫn và báo cáo tổng hợp; clone chưa tự mang theo raw trong trường hợp này.
+Việc ghi nhận yêu cầu của chủ dự án không thay thế giấy phép từ tác giả gốc. Không gán CC0/CC BY, không đổi nguồn hoặc diễn giải CSV là dữ liệu nhóm tự thu thập.

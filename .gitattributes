@@ -1,0 +1,2 @@
+# Preserve the original CSV bytes and SHA-256 on clone across operating systems.
+data/raw/healthcare-dataset-stroke-data.csv -text

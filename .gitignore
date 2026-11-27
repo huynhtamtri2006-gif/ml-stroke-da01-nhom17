@@ -19,6 +19,7 @@ kaggle.json
 # Dữ liệu và hiện vật cục bộ
 data/raw/*
 !data/raw/.gitkeep
+!data/raw/healthcare-dataset-stroke-data.csv
 data/processed/*
 !data/processed/.gitkeep
 app/models/*

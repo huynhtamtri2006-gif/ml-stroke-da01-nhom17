@@ -12,7 +12,7 @@ Repository: **[ml-stroke-da01-nhom17](https://github.com/huynhtamtri2006-gif/ml-
 
 Repository lưu trữ quá trình nghiên cứu và phát triển đồ án, từ phân tích dữ liệu, tự xây dựng thuật toán đến thực nghiệm và ứng dụng minh họa. Người mới tham gia có thể làm theo hướng dẫn bên dưới để tải tài liệu, xác định nhiệm vụ và đóng góp bằng tài khoản GitHub cá nhân.
 
-> **Trạng thái hiện tại:** đã có bộ tài liệu, kế hoạch, công cụ và báo cáo kiểm kê CSV thật trên máy Trí. CSV gốc chưa được đưa lên GitHub; người clone cần tải riêng theo hướng dẫn dữ liệu. Chưa có thuật toán học máy, ứng dụng chạy được, mô hình huấn luyện hoặc kết quả đánh giá mô hình. Các chức năng bên dưới là phạm vi dự kiến thực hiện.
+> **Trạng thái hiện tại:** đã có bộ tài liệu, kế hoạch, công cụ và báo cáo kiểm kê CSV thật. Theo yêu cầu của Trí, repo đã được cấu hình cho phép chứa CSV gốc; sau khi commit/push, người clone sẽ có sẵn dữ liệu để phân tích. Chưa có thuật toán học máy, ứng dụng chạy được, mô hình huấn luyện hoặc kết quả đánh giá mô hình. Các chức năng bên dưới là phạm vi dự kiến thực hiện.
 
 ## 1. Thành viên và trách nhiệm
 
@@ -55,7 +55,7 @@ Các mục tiêu chính:
 | Lớp dương | 249 mẫu |
 | Giá trị thiếu | 201 ô ở cột `bmi` |
 
-Các con số trên đã khớp [kiểm kê CSV cục bộ ngày 27/11/2026](data/inventory/inventory.md). Dữ liệu gốc lưu tại `data/raw/` và chưa đưa lên GitHub; xem [hướng dẫn tải, điều kiện chia sẻ và đối chiếu hash](data/README.md). Một số [nhận xét ban đầu](docs/INITIAL_DATA_FINDINGS.md) giúp hai người bắt đầu phân tích.
+Các con số trên đã khớp [kiểm kê CSV ngày 27/11/2026](data/inventory/inventory.md). File gốc là `data/raw/healthcare-dataset-stroke-data.csv`, được chọn để đưa vào repo theo yêu cầu của Trí; xem [hướng dẫn dữ liệu và đối chiếu hash](data/README.md). Một số [nhận xét ban đầu](docs/INITIAL_DATA_FINDINGS.md) giúp hai người bắt đầu phân tích. Thông tin bản quyền của tác giả gốc được giữ trong [hồ sơ nguồn](data/PROVENANCE.md).
 
 Sản phẩm dự kiến gồm mã thuật toán, bài kiểm thử, kết quả từng fold và bảng tổng hợp, biểu đồ nghiên cứu, hiện vật mô hình, ứng dụng minh họa, báo cáo Word, slide và minh chứng đóng góp.
 
@@ -97,7 +97,7 @@ ml-stroke-da01-nhom17/
 │   ├── issues/              # Nội dung dự thảo cho từng nhiệm vụ
 │   └── tasks/               # Kế hoạch cá nhân và danh mục nhiệm vụ CSV
 ├── data/                    # Hướng dẫn dữ liệu; nơi phát triển bộ nạp/tiền xử lý
-│   └── raw/                 # Dữ liệu gốc cục bộ, được gitignore
+│   └── raw/                 # CSV Stroke được chọn để commit; raw khác vẫn gitignore
 ├── models/                  # Nơi phát triển thuật toán tự viết và bản đối chiếu
 ├── experiments/             # Nơi phát triển cấu hình và trình chạy thực nghiệm
 ├── analysis/                # Nơi phát triển phân tích dữ liệu và sinh hình
@@ -184,17 +184,17 @@ Thay Task ID và tên nhánh theo nhiệm vụ của mình. Tự ghi nội dung 
 
 ### Bước 7: Chuẩn bị dữ liệu để cùng phân tích
 
-Làm theo [hướng dẫn dữ liệu](data/README.md): tải CSV từ Kaggle, giữ nguyên bản gốc trong `data/raw/`, ghi nguồn và điều kiện sử dụng, rồi chạy:
+Sau khi CSV đã được commit/push, người clone có sẵn file trong `data/raw/`. Giữ nguyên bản gốc, đọc [hướng dẫn dữ liệu](data/README.md) và kiểm kê bằng lệnh:
 
 ```powershell
 python data/kiem_ke.py
 ```
 
-Công cụ không cần thư viện bổ sung; báo cáo ở `data/inventory/` chỉ được tạo khi có CSV hợp lệ. Bản kiểm kê trên máy Trí đã có; đọc [từ điển các cột](data/DATA_DICTIONARY.md) và [hướng dẫn phân tích cho hai người](docs/DATA_ANALYSIS_START.md). CSV vẫn bị gitignore; chỉ bổ sung vào Git khi điều kiện nguồn cho phép chia sẻ được xác nhận. Hiện người clone cần tải CSV riêng và đối chiếu SHA-256 trong [hồ sơ dữ liệu](data/PROVENANCE.md).
+Công cụ không cần thư viện bổ sung; báo cáo ở `data/inventory/` chỉ được tạo khi có CSV hợp lệ. Bản kiểm kê trên máy Trí đã có; đọc [từ điển các cột](data/DATA_DICTIONARY.md) và [hướng dẫn phân tích cho hai người](docs/DATA_ANALYSIS_START.md). Đối chiếu SHA-256 trong [hồ sơ dữ liệu](data/PROVENANCE.md); nếu bản clone cũ chưa có CSV, cập nhật từ main sau khi Trí push.
 
 ### Bước 8: Chuẩn bị môi trường và chạy các thành phần sau này
 
-Đọc [ENVIRONMENT.md](docs/ENVIRONMENT.md) để kiểm tra Python và chuẩn bị môi trường riêng khi bắt đầu lập trình. Dữ liệu thô, môi trường Python và hiện vật bị gitignore không tự xuất hiện sau khi clone.
+Đọc [ENVIRONMENT.md](docs/ENVIRONMENT.md) để kiểm tra Python và chuẩn bị môi trường riêng khi bắt đầu lập trình. Chỉ CSV được cho phép theo tên cụ thể sẽ đi cùng repo; môi trường Python và các hiện vật còn bị gitignore không tự xuất hiện sau khi clone.
 
 Hiện chưa có `requirements.txt` đã khóa, lệnh huấn luyện hoặc lệnh chạy ứng dụng. Hướng dẫn cài đặt và chạy sẽ được bổ sung cùng từng thành phần đã kiểm chứng; chưa chạy các lệnh mẫu dành cho phần mã chưa tồn tại.
 

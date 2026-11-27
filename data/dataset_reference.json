@@ -13,7 +13,7 @@
   "license_label_reported_by_user": "Data files © Original Authors",
   "kaggle_license_identifier": "copyright-authors",
   "raw_redistribution_permission": "not_confirmed",
-  "raw_tracked_in_git": false,
+  "raw_git_policy": "include_specific_csv_on_project_owner_request",
   "verification_date_local": "2026-11-27",
   "verification_scope": "Local file hash and descriptive inventory checked; download provenance and license label supplied by user. Not a model evaluation."
 }
