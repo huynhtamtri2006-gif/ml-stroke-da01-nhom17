@@ -12,7 +12,7 @@ Repository: **[ml-stroke-da01-nhom17](https://github.com/huynhtamtri2006-gif/ml-
 
 Repository lưu trữ quá trình nghiên cứu và phát triển đồ án, từ phân tích dữ liệu, tự xây dựng thuật toán đến thực nghiệm và ứng dụng minh họa. Người mới tham gia có thể làm theo hướng dẫn bên dưới để tải tài liệu, xác định nhiệm vụ và đóng góp bằng tài khoản GitHub cá nhân.
 
-> **Trạng thái hiện tại:** đã có bộ tài liệu khởi động, kế hoạch và phân công. Chưa có mã thuật toán, ứng dụng chạy được, dữ liệu CSV, mô hình đã huấn luyện hoặc kết quả thực nghiệm. Các chức năng và sản phẩm bên dưới là phạm vi dự kiến thực hiện.
+> **Trạng thái hiện tại:** đã có bộ tài liệu, kế hoạch, công cụ và báo cáo kiểm kê CSV thật trên máy Trí. CSV gốc chưa được đưa lên GitHub; người clone cần tải riêng theo hướng dẫn dữ liệu. Chưa có thuật toán học máy, ứng dụng chạy được, mô hình huấn luyện hoặc kết quả đánh giá mô hình. Các chức năng bên dưới là phạm vi dự kiến thực hiện.
 
 ## 1. Thành viên và trách nhiệm
 
@@ -55,7 +55,7 @@ Các mục tiêu chính:
 | Lớp dương | 249 mẫu |
 | Giá trị thiếu | 201 ô ở cột `bmi` |
 
-Các con số trên cần được đối chiếu với CSV tải thực tế. Dữ liệu gốc lưu cục bộ tại `data/raw/`, không đưa lên GitHub. Xem [hướng dẫn dữ liệu](data/README.md) trước khi tải, sử dụng hoặc chia sẻ.
+Các con số trên đã khớp [kiểm kê CSV cục bộ ngày 27/11/2026](data/inventory/inventory.md). Dữ liệu gốc lưu tại `data/raw/` và chưa đưa lên GitHub; xem [hướng dẫn tải, điều kiện chia sẻ và đối chiếu hash](data/README.md). Một số [nhận xét ban đầu](docs/INITIAL_DATA_FINDINGS.md) giúp hai người bắt đầu phân tích.
 
 Sản phẩm dự kiến gồm mã thuật toán, bài kiểm thử, kết quả từng fold và bảng tổng hợp, biểu đồ nghiên cứu, hiện vật mô hình, ứng dụng minh họa, báo cáo Word, slide và minh chứng đóng góp.
 
@@ -182,7 +182,17 @@ Thay Task ID và tên nhánh theo nhiệm vụ của mình. Tự ghi nội dung 
 4. Gắn link tài liệu, commit, PR, test hoặc kết quả vào [minh chứng đóng góp](CONTRIBUTION_REPORT.md).
 5. Chỉ chuyển Done khi đạt tiêu chí và đã được kiểm tra.
 
-### Bước 7: Chuẩn bị môi trường và chạy các thành phần sau này
+### Bước 7: Chuẩn bị dữ liệu để cùng phân tích
+
+Làm theo [hướng dẫn dữ liệu](data/README.md): tải CSV từ Kaggle, giữ nguyên bản gốc trong `data/raw/`, ghi nguồn và điều kiện sử dụng, rồi chạy:
+
+```powershell
+python data/kiem_ke.py
+```
+
+Công cụ không cần thư viện bổ sung; báo cáo ở `data/inventory/` chỉ được tạo khi có CSV hợp lệ. Bản kiểm kê trên máy Trí đã có; đọc [từ điển các cột](data/DATA_DICTIONARY.md) và [hướng dẫn phân tích cho hai người](docs/DATA_ANALYSIS_START.md). CSV vẫn bị gitignore; chỉ bổ sung vào Git khi điều kiện nguồn cho phép chia sẻ được xác nhận. Hiện người clone cần tải CSV riêng và đối chiếu SHA-256 trong [hồ sơ dữ liệu](data/PROVENANCE.md).
+
+### Bước 8: Chuẩn bị môi trường và chạy các thành phần sau này
 
 Đọc [ENVIRONMENT.md](docs/ENVIRONMENT.md) để kiểm tra Python và chuẩn bị môi trường riêng khi bắt đầu lập trình. Dữ liệu thô, môi trường Python và hiện vật bị gitignore không tự xuất hiện sau khi clone.
 

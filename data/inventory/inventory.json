@@ -1,0 +1,107 @@
+{
+  "source_url": "https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset",
+  "filename": "healthcare-dataset-stroke-data.csv",
+  "generated_at_utc": "2026-11-27T05:46:37+00:00",
+  "sha256": "644d473b05d2797006bd94865e4f8bb057f0c721617911613c82c8fcfc707420",
+  "bytes": 316971,
+  "column_names": [
+    "id",
+    "gender",
+    "age",
+    "hypertension",
+    "heart_disease",
+    "ever_married",
+    "work_type",
+    "Residence_type",
+    "avg_glucose_level",
+    "bmi",
+    "smoking_status",
+    "stroke"
+  ],
+  "counts": {
+    "rows": 5110,
+    "columns": 12,
+    "stroke_0": 4861,
+    "stroke_1": 249,
+    "bmi_missing": 201
+  },
+  "expected_from_assignment": {
+    "rows": 5110,
+    "columns": 12,
+    "stroke_0": 4861,
+    "stroke_1": 249,
+    "bmi_missing": 201
+  },
+  "positive_rate": 0.0487279843444227,
+  "missing_by_column": {
+    "id": 0,
+    "gender": 0,
+    "age": 0,
+    "hypertension": 0,
+    "heart_disease": 0,
+    "ever_married": 0,
+    "work_type": 0,
+    "Residence_type": 0,
+    "avg_glucose_level": 0,
+    "bmi": 201,
+    "smoking_status": 0,
+    "stroke": 0
+  },
+  "duplicate_full_rows": 0,
+  "duplicate_rows_excluding_id": 0,
+  "duplicate_ids": 0,
+  "categorical_counts": {
+    "gender": {
+      "Female": 2994,
+      "Male": 2115,
+      "Other": 1
+    },
+    "ever_married": {
+      "No": 1757,
+      "Yes": 3353
+    },
+    "work_type": {
+      "Govt_job": 657,
+      "Never_worked": 22,
+      "Private": 2925,
+      "Self-employed": 819,
+      "children": 687
+    },
+    "Residence_type": {
+      "Rural": 2514,
+      "Urban": 2596
+    },
+    "smoking_status": {
+      "Unknown": 1544,
+      "formerly smoked": 885,
+      "never smoked": 1892,
+      "smokes": 789
+    }
+  },
+  "numeric_summary": {
+    "age": {
+      "non_missing": 5110,
+      "min": 0.08,
+      "median": 45.0,
+      "max": 82.0
+    },
+    "avg_glucose_level": {
+      "non_missing": 5110,
+      "min": 55.12,
+      "median": 91.88499999999999,
+      "max": 271.74
+    },
+    "bmi": {
+      "non_missing": 4909,
+      "min": 10.3,
+      "median": 28.1,
+      "max": 97.6
+    }
+  },
+  "bmi_missing_by_stroke": {
+    "0": 161,
+    "1": 40
+  },
+  "warnings": [],
+  "scope": "Mô tả toàn bộ CSV; không phải kết quả huấn luyện hoặc đánh giá mô hình."
+}

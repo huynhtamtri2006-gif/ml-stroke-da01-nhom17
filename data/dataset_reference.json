@@ -1,0 +1,19 @@
+{
+  "dataset_name": "Stroke Prediction Dataset",
+  "kaggle_ref": "fedesoriano/stroke-prediction-dataset",
+  "source_url": "https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset",
+  "relative_path": "data/raw/healthcare-dataset-stroke-data.csv",
+  "sha256": "644d473b05d2797006bd94865e4f8bb057f0c721617911613c82c8fcfc707420",
+  "bytes": 316971,
+  "rows": 5110,
+  "columns": 12,
+  "stroke_0": 4861,
+  "stroke_1": 249,
+  "bmi_missing": 201,
+  "license_label_reported_by_user": "Data files © Original Authors",
+  "kaggle_license_identifier": "copyright-authors",
+  "raw_redistribution_permission": "not_confirmed",
+  "raw_tracked_in_git": false,
+  "verification_date_local": "2026-11-27",
+  "verification_scope": "Local file hash and descriptive inventory checked; download provenance and license label supplied by user. Not a model evaluation."
+}
